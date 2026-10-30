@@ -55,6 +55,17 @@ def main():
 
     wb = openpyxl.load_workbook(xlsx_path, data_only=True)
 
+    # Preserve original_artist from an existing data.json (not stored in the workbook).
+    prev_artists = {}
+    if out_path.exists():
+        try:
+            prev = json.loads(out_path.read_text(encoding="utf-8"))
+            for s in prev.get("songs") or []:
+                if s.get("song_id") and s.get("original_artist"):
+                    prev_artists[str(s["song_id"]).strip()] = s["original_artist"]
+        except (json.JSONDecodeError, OSError):
+            pass
+
     songs = []
     for r in sheet_rows(wb["Songs"], ["song_id", "title"]):
         if not r.get("song_id") or str(r["song_id"]).startswith("S001") and r.get("title") == "Sky":
@@ -62,8 +73,9 @@ def main():
             pass
         if not r.get("song_id"):
             continue
+        sid = str(r["song_id"]).strip()
         songs.append({
-            "song_id": str(r["song_id"]).strip(),
+            "song_id": sid,
             "title": r.get("title") or "",
             "title_english": r.get("title_english") or "",
             "album": r.get("album") or "",
@@ -73,6 +85,8 @@ def main():
             "arranger": r.get("arranger") or "",
             "notes": r.get("notes") or "",
             "is_other_artist": to_bool(r.get("is_other_artist"), default=False),
+            "language": (r.get("language") or "").strip() if r.get("language") else "",
+            "original_artist": prev_artists.get(sid, ""),
         })
 
     concerts_by_id = {}

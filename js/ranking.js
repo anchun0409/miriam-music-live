@@ -24,7 +24,7 @@
     .map((entry, i) => {
       const { song, likes, lastDate } = entry;
       const lastPerformedText = lastDate
-        ? `最近演唱：${DataLayer.timeSince(lastDate)}（${lastDate}）`
+        ? `上一次演唱：${DataLayer.timeSince(lastDate)}（${lastDate}）`
         : "尚未有演唱會Live版";
       return `
       <div class="rank-row">

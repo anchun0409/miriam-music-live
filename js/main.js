@@ -192,7 +192,7 @@
           ? liveFilter === "never"
             ? ""
             : `<div class="never-badge">尚未有演唱會Live版</div>`
-          : `<div class="last-performed">🎤 最近演唱：${DataLayer.timeSince(lastDate)}</div>`
+          : `<div class="last-performed">🎤 上一次演唱：${DataLayer.timeSince(lastDate)}</div>`
       }
       <button class="history-toggle" data-toggle="${song.song_id}">
         <span>${historyLabel}</span>

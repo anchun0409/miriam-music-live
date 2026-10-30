@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600&family=Outfit:wght@300;400;500;600&display=swap');
 
 :root{
   --bg: #FAF7FD;
@@ -17,6 +17,12 @@
   --shadow: 0 8px 24px rgba(91, 58, 142, 0.08);
   --shadow-hover: 0 14px 32px rgba(91, 58, 142, 0.14);
   --radius: 16px;
+  --font-body: 'Manrope', 'PingFang TC', 'Noto Sans TC', sans-serif;
+  --font-display: 'Outfit', 'PingFang TC', 'Noto Sans TC', sans-serif;
+  --font-brand: 'Cormorant Garamond', 'Noto Serif TC', serif;
+  --link: var(--purple-700);
+  --link-hover: var(--purple-900);
+  --link-underline-hover: #C9C2D4;
 }
 
 *{box-sizing:border-box;}
@@ -30,7 +36,7 @@ body{
     radial-gradient(900px 400px at 100% 0%, #F6EEFC, transparent),
     var(--bg);
   color:var(--text);
-  font-family:'Manrope', sans-serif;
+  font-family:var(--font-body);
   min-height:100vh;
 }
 
@@ -52,11 +58,12 @@ a{color:inherit;}
 }
 
 .brand-title{
-  font-family:'Cormorant Garamond', serif;
-  font-weight:600;
-  font-size:30px;
+  font-family:var(--font-brand);
+  font-weight:500;
+  font-size:34px;
   color:var(--purple-900);
-  letter-spacing:0.02em;
+  letter-spacing:0.03em;
+  line-height:1.2;
   text-decoration:none;
 }
 
@@ -360,11 +367,16 @@ main{
 }
 
 .song-title{
-  font-family:'Cormorant Garamond', serif;
-  font-weight:600;
-  font-size:23px;
-  color:var(--purple-900);
-  line-height:1.25;
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:24px;
+  color:var(--link);
+  letter-spacing:0.02em;
+  line-height:1.3;
+  text-decoration:underline;
+  text-decoration-color:transparent;
+  text-underline-offset:0.18em;
+  text-decoration-thickness:1px;
 }
 
 button.song-title{
@@ -376,10 +388,12 @@ button.song-title{
   background:transparent;
   text-align:left;
   cursor:pointer;
+  transition:color .15s ease, text-decoration-color .15s ease;
 }
 
 button.song-title:hover{
-  color:var(--purple-700);
+  color:var(--link-hover);
+  text-decoration-color:var(--link-underline-hover);
 }
 
 .song-lang{
@@ -433,9 +447,9 @@ button.song-title:hover{
 }
 
 .meta-album-name{
-  color:var(--text);
+  color:var(--link);
   font-weight:600;
-  font-family:'Manrope', sans-serif;
+  font-family:var(--font-body);
   font-size:inherit;
   background:none;
   border:none;
@@ -443,13 +457,14 @@ button.song-title:hover{
   cursor:pointer;
   text-decoration:underline;
   text-decoration-color:transparent;
-  text-underline-offset:3px;
+  text-underline-offset:0.18em;
+  text-decoration-thickness:1px;
   transition:color .15s ease, text-decoration-color .15s ease;
 }
 
 .meta-album-name:hover{
-  color:var(--purple-700);
-  text-decoration-color:var(--purple-300);
+  color:var(--link-hover);
+  text-decoration-color:var(--link-underline-hover);
 }
 
 .meta-album-sep{
@@ -575,21 +590,23 @@ button.song-title:hover{
   background:none;
   border:none;
   padding:0;
-  font-family:'Manrope', sans-serif;
-  font-weight:700;
-  font-size:13.5px;
-  color:var(--purple-900);
+  font-family:var(--font-display);
+  font-weight:500;
+  font-size:15px;
+  letter-spacing:0.015em;
+  color:var(--link);
   margin-bottom:6px;
   cursor:pointer;
   text-decoration:underline;
   text-decoration-color:transparent;
-  text-underline-offset:3px;
+  text-underline-offset:0.18em;
+  text-decoration-thickness:1px;
   transition:color .15s ease, text-decoration-color .15s ease;
 }
 
 .ticket-tour:hover{
-  color:var(--purple-700);
-  text-decoration-color:var(--purple-300);
+  color:var(--link-hover);
+  text-decoration-color:var(--link-underline-hover);
 }
 
 .ticket-shared-loc{
@@ -678,8 +695,10 @@ button.song-title:hover{
 }
 
 .empty-state .big{
-  font-family:'Cormorant Garamond', serif;
+  font-family:var(--font-display);
+  font-weight:400;
   font-size:28px;
+  letter-spacing:0.03em;
   color:var(--purple-700);
   margin-bottom:8px;
 }
@@ -703,9 +722,10 @@ button.song-title:hover{
 }
 
 .rank-num{
-  font-family:'Cormorant Garamond', serif;
-  font-size:26px;
-  font-weight:600;
+  font-family:var(--font-display);
+  font-size:24px;
+  font-weight:400;
+  letter-spacing:0.02em;
   color:var(--purple-300);
   width:38px;
   text-align:center;
@@ -719,9 +739,10 @@ button.song-title:hover{
 .rank-info{flex:1 1 auto; min-width:0;}
 
 .rank-title{
-  font-family:'Cormorant Garamond', serif;
-  font-weight:600;
-  font-size:19px;
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:20px;
+  letter-spacing:0.02em;
   color:var(--purple-900);
 }
 
@@ -764,11 +785,13 @@ footer,
 .site-disclaimer a{
   color:var(--purple-700);
   text-decoration:underline;
+  text-decoration-color:#C9C2D4;
   text-underline-offset:2px;
 }
 
 .site-disclaimer a:hover{
   color:var(--purple-900);
+  text-decoration-color:var(--purple-300);
 }
 
 .site-disclaimer > strong:first-child{
@@ -815,9 +838,10 @@ footer,
 
 .ff-section h2{
   margin:0 0 10px;
-  font-family:'Cormorant Garamond', serif;
-  font-size:24px;
-  font-weight:600;
+  font-family:var(--font-display);
+  font-size:26px;
+  font-weight:400;
+  letter-spacing:0.03em;
   color:var(--purple-900);
 }
 
@@ -850,12 +874,43 @@ footer,
   border:1px solid var(--border);
 }
 
+.tag-album-ep,
+.tag-album-single,
+.tag-album-mandarin{
+  display:inline-block;
+  margin-left:6px;
+  padding:1px 7px;
+  border-radius:999px;
+  font-family:'Manrope', sans-serif;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:0.06em;
+  line-height:1.4;
+  vertical-align:middle;
+  border:1px solid var(--border);
+}
+
+.tag-album-ep{
+  color:var(--text);
+  background:rgba(0,0,0,0.04);
+}
+
+.tag-album-single{
+  color:var(--purple-700);
+  background:var(--purple-150);
+}
+
+.tag-album-mandarin{
+  color:#6b4a1a;
+  background:rgba(180,140,60,0.12);
+}
+
 .ff-subhead{
   margin:14px 0 8px;
-  font-family:'Manrope', sans-serif;
-  font-size:13px;
-  font-weight:700;
-  letter-spacing:0.04em;
+  font-family:var(--font-display);
+  font-size:15px;
+  font-weight:500;
+  letter-spacing:0.03em;
   color:var(--text);
 }
 
@@ -892,15 +947,19 @@ footer,
 }
 
 .ff-main{
-  font-weight:600;
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:16px;
+  letter-spacing:0.015em;
   color:var(--text);
 }
 
 .ff-link{
-  color:var(--purple-700);
+  color:var(--link);
   text-decoration:underline;
   text-decoration-color:transparent;
-  text-underline-offset:3px;
+  text-underline-offset:0.18em;
+  text-decoration-thickness:1px;
   transition:color .15s ease, text-decoration-color .15s ease;
 }
 
@@ -911,14 +970,16 @@ button.ff-link{
   border:none;
   background:transparent;
   font:inherit;
-  font-weight:600;
+  font-family:var(--font-display);
+  font-weight:400;
+  letter-spacing:0.015em;
   cursor:pointer;
   text-align:left;
 }
 
 .ff-link:hover{
-  color:var(--purple-900);
-  text-decoration-color:var(--purple-300);
+  color:var(--link-hover);
+  text-decoration-color:var(--link-underline-hover);
 }
 
 .ff-lead a.ff-link{
@@ -1049,11 +1110,12 @@ body.modal-open{overflow:hidden;}
 .modal-header{padding-right:36px;margin-bottom:12px;}
 
 .modal-title{
-  font-family:'Cormorant Garamond', serif;
-  font-weight:600;
-  font-size:22px;
+  font-family:var(--font-display);
+  font-weight:400;
+  font-size:24px;
+  letter-spacing:0.02em;
   color:var(--purple-900);
-  line-height:1.3;
+  line-height:1.35;
 }
 
 .modal-sub{
@@ -1103,12 +1165,27 @@ button.setlist-item{
   text-align:left;
   background:none;
   border:none;
-  font-family:'Manrope', sans-serif;
+  font-family:var(--font-body);
   cursor:pointer;
+  color:var(--link);
+  transition:color .15s ease, background .15s ease;
+}
+
+button.setlist-item .setlist-title{
+  text-decoration:underline;
+  text-decoration-color:transparent;
+  text-underline-offset:0.16em;
+  text-decoration-thickness:1px;
+  transition:text-decoration-color .15s ease;
 }
 
 button.setlist-item:hover{
   background:var(--purple-150);
+  color:var(--link-hover);
+}
+
+button.setlist-item:hover .setlist-title{
+  text-decoration-color:var(--link-underline-hover);
 }
 
 .setlist-item.highlight{

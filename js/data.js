@@ -68,20 +68,149 @@ window.DataLayer = (() => {
       .trim();
   }
 
+  // Wikipedia 專輯表 + 其他唱片中的單曲／翻唱（不含演唱會碟、電影電視劇原聲）。
+  // tags: EP / 單曲 / 國語
+  const ALBUM_CATALOG = [
+    { name: "狼來了", year: 1996 },
+    { name: "直覺", year: 1997 },
+    { name: "私日記", year: 1997, tags: ["EP"] },
+    { name: "到此一遊", year: 1998 },
+    { name: "大激想", year: 1998, tags: ["EP"] },
+    { name: "楊千嬅體驗入學", year: 1998, aliases: ["體驗入學"] },
+    { name: "1-100", year: 1998, tags: ["EP"], aliases: ["Miriam 1 to 100"] },
+    { name: "夏天的故事", year: 1999 },
+    { name: "微笑", year: 1999, tags: ["國語"] },
+    { name: "冬天的故事", year: 1999 },
+    {
+      name: "Play It Loud, Kiss Me Soft",
+      year: 2000,
+      tags: ["EP"],
+      aliases: [
+        "Play It Loud Kiss Me Soft",
+        "Play It Loud avep2",
+        "Kiss Me Soft（avep1）",
+        "Kiss Me Soft(avep1)",
+      ],
+    },
+    { name: "Miriam", year: 2001 },
+    { name: "My Favourite Hits", year: 2001 },
+    { name: "M VS M 上半場", year: 2002, tags: ["EP"], aliases: ["M Vs M上半場"] },
+    { name: "M VS M 下半場", year: 2002, tags: ["EP"], aliases: ["M Vs M下半場"] },
+    { name: "M VS M 總決賽", year: 2002, tags: ["EP"], aliases: ["M vs M總決賽"] },
+    { name: "Miriam's Music Box", year: 2002 },
+    { name: "揚眉", year: 2003, tags: ["國語"] },
+    { name: "Make Up", year: 2003 },
+    { name: "Miriam's Melodies", year: 2003 },
+    { name: "2004開大", year: 2004, tags: ["EP"], aliases: ["2004 開大"] },
+    { name: "電光幻影", year: 2004 },
+    { name: "傻仔2004", year: 2004, aliases: ["傻仔新曲 + 精選", "傻仔新曲+精選"] },
+    { name: "Single", year: 2005 },
+    { name: "金經典", year: 2006 },
+    { name: "Unlimited", year: 2006 },
+    { name: "Simply Me", year: 2007 },
+    { name: "Meridian", year: 2007 },
+    { name: "Wonder Miriam", year: 2008 },
+    { name: "原來過得很快樂", year: 2009 },
+    { name: "千嬅盛放", year: 2009 },
+    { name: "囍愛", year: 2010, aliases: ["囍愛楊千嬅"] },
+    { name: "Home", year: 2010, tags: ["EP"], aliases: ["HOME"] },
+    { name: "Ready or Not", year: 2011, tags: ["國語"], aliases: ["Ready Or Not"] },
+    { name: "火鳥", year: 2012 },
+    { name: "金牌10年精選系列", year: 2012, aliases: ["金牌10年精選系列 楊千嬅"] },
+    { name: "如果大家都擁有海", year: 2015 },
+    {
+      name: "One on One Collection",
+      year: 2018,
+      aliases: ["One On One", "One on One"],
+    },
+    { name: "RECOLLECTION, VOL. I - MY Harmonic Minor", year: 2025 },
+    {
+      name: "MULTIVERSE OF CINEPOLY 40TH ANNIVERSARY - 楊千嬅",
+      year: 2026,
+    },
+    { name: "金曲當年情", year: 2002, tags: ["單曲"] },
+    { name: "色惑", year: 2014, tags: ["單曲"] },
+    { name: "千嬅新唱金牌金曲", year: 2007 },
+  ];
+
+  function normalizeAlbumKey(name) {
+    return String(name || "")
+      .normalize("NFKC")
+      .replace(/[，]/g, ",")
+      .replace(/[（]/g, "(")
+      .replace(/[）]/g, ")")
+      .replace(/\s+/g, "")
+      .toLowerCase();
+  }
+
+  const albumByKey = (() => {
+    const map = new Map();
+    ALBUM_CATALOG.forEach((entry) => {
+      const keys = [entry.name, ...(entry.aliases || [])];
+      keys.forEach((k) => map.set(normalizeAlbumKey(k), entry));
+    });
+    return map;
+  })();
+
+  function resolveAlbumEntry(name) {
+    if (!name) return null;
+    return albumByKey.get(normalizeAlbumKey(name)) || null;
+  }
+
+  function canonicalizeAlbumName(name) {
+    const entry = resolveAlbumEntry(name);
+    return entry ? entry.name : name;
+  }
+
   // Split multi-album fields on "), " between year tags so names that
   // contain commas (e.g. "Play It Loud, Kiss Me Soft (2000)") stay whole.
   function albumParts(album) {
     if (!album) return [];
-    const raw = String(album).trim();
-    if (!raw || raw.toLowerCase() === "n.a.") return [];
+    const rawAlbum = String(album).trim();
+    if (!rawAlbum || rawAlbum.toLowerCase() === "n.a.") return [];
 
-    const chunks = raw.split(/\)\s*,\s*/).map((chunk, i, arr) => {
+    const chunks = rawAlbum.split(/\)\s*,\s*/).map((chunk, i, arr) => {
       let s = chunk.trim();
       if (i < arr.length - 1 && !/\)$/.test(s)) s += ")";
-      return stripAlbumYear(s);
+      return canonicalizeAlbumName(stripAlbumYear(s));
     });
 
-    return chunks.filter((p) => p && p.toLowerCase() !== "n.a.");
+    const seen = new Set();
+    return chunks.filter((p) => {
+      if (!p || p.toLowerCase() === "n.a.") return false;
+      const key = normalizeAlbumKey(p);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function albumNameHTML(name) {
+    const entry = resolveAlbumEntry(name);
+    const label = entry ? entry.name : name;
+    const tags = (entry && entry.tags) || [];
+    const tagHtml = tags
+      .map((t) => {
+        const cls =
+          t === "EP"
+            ? "tag-album-ep"
+            : t === "單曲"
+              ? "tag-album-single"
+              : t === "國語"
+                ? "tag-album-mandarin"
+                : "tag-album-ep";
+        return `<span class="${cls}">${t}</span>`;
+      })
+      .join("");
+    return `${escapeHtmlPlain(label)}${tagHtml}`;
+  }
+
+  function escapeHtmlPlain(s) {
+    return String(s ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   // For a given song, build a list of "concert entries": one per concert,
@@ -203,25 +332,25 @@ window.DataLayer = (() => {
 
   // Fan labels for major solo shows vs world tours
   const GECHANG_CONCERT_IDS = new Set([
-    "C001",
-    "C015",
-    "C017",
-    "C022",
-    "C025",
-    "C002",
-    "C003",
-    "C004",
-    "C006",
-    "C009",
-    "C008",
+    "C001", // My Concert 花樣千嬅
+    "C015", // 萬紫千紅
+    "C017", // 開年大典 Vol.3
+    "C022", // All About Love 2007
+    "C025", // Ladies & Gentlemen
+    "C002", // Minor Classics Live 2011
+    "C003", // Let's Begin 2015
+    "C004", // 三二一GO! 2017
+    "C006", // B minor
+    "C009", // RECOLLECTION 澳門
+    "C008", // Live MY LIVE 2025
   ]);
   const GEXUN_CONCERT_IDS = new Set([
-    "C005",
-    "C033",
-    "C007",
-    "C031",
-    "C034",
-    "C032",
+    "C005", // My Beautiful Live（中國）
+    "C033", // My Beautiful Live（海外）
+    "C007", // MY TREE OF LIVE 1.0（中國）
+    "C031", // MY TREE OF LIVE 1.0（海外）
+    "C034", // MY TREE OF LIVE 2.0
+    "C032", // Live MY LIVE 1.0
   ]);
 
   function concertIdOf(concertOrId) {
@@ -268,7 +397,7 @@ window.DataLayer = (() => {
 
   function isCollabOrSpecialConcert(concert) {
     const name = concert?.concert_name || "";
-    return /拉闊|Music is Live|六神合體|MOOV Live|ID CLUB|狂熱份子|又一個叱吒/i.test(
+    return /拉闊|Music is Live|六神合體|MOOV Live|ID CLUB|狂熱份子|又一個叱吒|抱抱良音|AT17|女子十二樂坊/i.test(
       name
     );
   }
@@ -331,9 +460,12 @@ window.DataLayer = (() => {
     );
     const cities = new Set(themeSessions.map((s) => s.city).filter(Boolean));
 
-    // song count per session
+    // song count per session (exclude other-artist covers from the tally;
+    // they still appear in rundown overlays)
     const perSession = {};
     raw.performances.forEach((p) => {
+      const song = songsById[p.song_id];
+      if (song && song.is_other_artist) return;
       perSession[p.session_id] = (perSession[p.session_id] || 0) + 1;
     });
     const sessionRows = sessions
@@ -465,9 +597,90 @@ window.DataLayer = (() => {
   }
 
   function songsInAlbum(albumName) {
-    const target = stripAlbumYear(albumName);
+    const target = canonicalizeAlbumName(stripAlbumYear(albumName));
     if (!target) return [];
-    return raw.songs.filter((s) => albumParts(s.album).includes(target));
+    const targetKey = normalizeAlbumKey(target);
+    return raw.songs.filter((s) =>
+      albumParts(s.album).some((p) => normalizeAlbumKey(p) === targetKey)
+    );
+  }
+
+  /** Parse album field into { name, year } chunks (year may be null). */
+  function albumChunks(album) {
+    if (!album) return [];
+    const rawAlbum = String(album).trim();
+    if (!rawAlbum || rawAlbum.toLowerCase() === "n.a.") return [];
+
+    const pieces = rawAlbum.split(/\)\s*,\s*/).map((chunk, i, arr) => {
+      let s = chunk.trim();
+      if (i < arr.length - 1 && !/\)$/.test(s)) s += ")";
+      return s;
+    });
+
+    return pieces
+      .map((piece) => {
+        const m = piece.match(/^(.*?)\s*\((\d{4})\)\s*$/);
+        if (m) {
+          const name = canonicalizeAlbumName(m[1].replace(/\s{2,}/g, " ").trim());
+          if (!name || name.toLowerCase() === "n.a.") return null;
+          return { name, year: Number(m[2]) };
+        }
+        const name = canonicalizeAlbumName(stripAlbumYear(piece));
+        if (!name || name.toLowerCase() === "n.a.") return null;
+        return { name, year: null };
+      })
+      .filter(Boolean);
+  }
+
+  /**
+   * Albums on the Sources page: Wikipedia 專輯／單曲／翻唱 only
+   * (excludes concert live discs and film/TV soundtracks).
+   */
+  function catalogAlbums() {
+    const byName = new Map();
+    ownSongs().forEach((song) => {
+      const chunks = albumChunks(song.album);
+      if (!chunks.length) return;
+      chunks.forEach(({ name, year }) => {
+        const meta = resolveAlbumEntry(name);
+        if (!meta) return;
+        const canon = meta.name;
+        let entry = byName.get(canon);
+        if (!entry) {
+          entry = {
+            name: canon,
+            years: new Set(),
+            song_ids: new Set(),
+            tags: meta.tags || [],
+            wiki_year: meta.year || null,
+          };
+          byName.set(canon, entry);
+        }
+        if (year) entry.years.add(year);
+        else if (song.release_year) entry.years.add(Number(song.release_year));
+        entry.song_ids.add(song.song_id);
+      });
+    });
+
+    return [...byName.values()]
+      .map((e) => {
+        const years = [...e.years].filter((y) => Number.isFinite(y)).sort((a, b) => a - b);
+        const year = e.wiki_year || (years.length ? years[0] : null);
+        return {
+          name: e.name,
+          year,
+          years,
+          tags: e.tags,
+          year_label: year ? String(year) : "",
+          song_count: e.song_ids.size,
+        };
+      })
+      .sort((a, b) => {
+        const ya = a.year || 9999;
+        const yb = b.year || 9999;
+        if (ya !== yb) return ya - yb;
+        return a.name.localeCompare(b.name, "zh-Hant");
+      });
   }
 
   // Preserve JSON order of performances for a session as the setlist order.
@@ -502,6 +715,11 @@ window.DataLayer = (() => {
     stripAlbumYear,
     albumParts,
     songsInAlbum,
+    albumChunks,
+    catalogAlbums,
+    albumNameHTML,
+    resolveAlbumEntry,
+    canonicalizeAlbumName,
     getConcert,
     getSong,
     allConcerts,

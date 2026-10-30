@@ -203,7 +203,10 @@ window.Overlay = (() => {
     els.root.dataset.album = name;
     els.root.dataset.concertId = "";
     els.root.dataset.songId = "";
-    els.title.textContent = name;
+    els.title.innerHTML =
+      typeof DataLayer.albumNameHTML === "function"
+        ? DataLayer.albumNameHTML(name)
+        : escapeHtml(name);
     els.sub.textContent = `專輯曲目 · 共 ${songs.length} 首`;
     setSessionControlsVisible(false);
 
@@ -298,7 +301,7 @@ window.Overlay = (() => {
         ${
           never
             ? `<div class="never-badge">尚未有演唱會Live版</div>`
-            : `<div class="last-performed">🎤 最近演唱：${DataLayer.timeSince(lastDate)}</div>`
+            : `<div class="last-performed">🎤 上一次演唱：${DataLayer.timeSince(lastDate)}</div>`
         }
         <div class="overlay-song-history-label">${historyLabel}</div>
         <div class="history-list open">${historyHTML}</div>

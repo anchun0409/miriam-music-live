@@ -1,5 +1,5 @@
 {
-  "generated_note": "Generated from workbook via convert_xlsx_to_json.py; enriched from elaineyupei/my-live-chart (Traditional Chinese DT); LML setlists corrected; song versions merged; original_artist added",
+  "generated_note": "Added live-chart covers: 十年/突然好想你/我的歌聲裡/無條件; fixed B minor day1 setlist order from LC",
   "songs": [
     {
       "song_id": "S001",
@@ -19,7 +19,7 @@
       "song_id": "S002",
       "title": "非買品",
       "title_english": "",
-      "album": "Miriam 1 to 100 (1998)",
+      "album": "1-100 (1998)",
       "release_year": 1998,
       "lyricist": "林夕",
       "composer": "黃敬佩",
@@ -47,7 +47,7 @@
       "song_id": "S004",
       "title": "花樣+年華",
       "title_english": "",
-      "album": "Miriam 1 to 100 (1998)",
+      "album": "1-100 (1998)",
       "release_year": 1998,
       "lyricist": "林夕",
       "composer": "鍾國仁",
@@ -146,7 +146,7 @@
       "title": "誰願放手",
       "title_english": "",
       "album": "",
-      "release_year": "",
+      "release_year": null,
       "lyricist": "",
       "composer": "",
       "arranger": "",
@@ -160,7 +160,7 @@
       "title": "失憶周末",
       "title_english": "",
       "album": "",
-      "release_year": "",
+      "release_year": null,
       "lyricist": "",
       "composer": "",
       "arranger": "",
@@ -173,7 +173,7 @@
       "song_id": "S013",
       "title": "新世紀福音戰士",
       "title_english": "",
-      "album": "冬天的故事 (1999), Play It Loud Kiss Me Soft (2000)",
+      "album": "冬天的故事 (1999)",
       "release_year": 1999,
       "lyricist": "黃偉文",
       "composer": "Johann Sebastian Bach + 陳輝陽",
@@ -229,7 +229,7 @@
       "song_id": "S017",
       "title": "直覺",
       "title_english": "",
-      "album": "直覺 (1997), 私日記 (1997)",
+      "album": "直覺 (1997)",
       "release_year": 1997,
       "lyricist": "何秀萍",
       "composer": "陳小霞",
@@ -243,7 +243,7 @@
       "song_id": "S018",
       "title": "愛人",
       "title_english": "",
-      "album": "Miriam 1 to 100 (1998)",
+      "album": "1-100 (1998)",
       "release_year": 1998,
       "lyricist": "林夕",
       "composer": "于逸堯",
@@ -258,7 +258,7 @@
       "title": "誓要入刀山",
       "title_english": "",
       "album": "",
-      "release_year": "",
+      "release_year": null,
       "lyricist": "",
       "composer": "",
       "arranger": "",
@@ -272,7 +272,7 @@
       "title": "禪院鐘聲",
       "title_english": "",
       "album": "",
-      "release_year": "",
+      "release_year": null,
       "lyricist": "",
       "composer": "",
       "arranger": "",
@@ -286,7 +286,7 @@
       "title": "感情線上",
       "title_english": "",
       "album": "",
-      "release_year": "",
+      "release_year": null,
       "lyricist": "",
       "composer": "",
       "arranger": "",
@@ -299,7 +299,7 @@
       "song_id": "S022",
       "title": "再見二丁目",
       "title_english": "",
-      "album": "直覺 (1997), 私日記 (1997)",
+      "album": "直覺 (1997)",
       "release_year": 1997,
       "lyricist": "林夕",
       "composer": "于逸堯",
@@ -369,7 +369,7 @@
       "song_id": "S027",
       "title": "繼續努力",
       "title_english": "",
-      "album": "Miriam 1 to 100 (1998)",
+      "album": "1-100 (1998)",
       "release_year": 1998,
       "lyricist": "黃偉文",
       "composer": "梁基爵",
@@ -397,7 +397,7 @@
       "song_id": "S029",
       "title": "個個都有寶",
       "title_english": "",
-      "album": "Play It Loud avep2 (2000)",
+      "album": "Play It Loud, Kiss Me Soft (2000)",
       "release_year": 2000,
       "lyricist": "因葵",
       "composer": "Misuko Shiramine/Cheru Watabe",
@@ -440,7 +440,7 @@
       "title": "下一站天國",
       "title_english": "",
       "album": "",
-      "release_year": "",
+      "release_year": null,
       "lyricist": "",
       "composer": "",
       "arranger": "",
@@ -635,7 +635,7 @@
       "song_id": "S046",
       "title": "洋蔥",
       "title_english": "",
-      "album": "Miriam 1 to 100 (1998)",
+      "album": "1-100 (1998)",
       "release_year": 1998,
       "lyricist": "黃偉文",
       "composer": "馮正",
@@ -649,7 +649,7 @@
       "song_id": "S047",
       "title": "深息",
       "title_english": "",
-      "album": "Play It Loud Kiss Me Soft (2000), 火鳥 (2012), One On One (2018)",
+      "album": "Play It Loud, Kiss Me Soft (2000), 火鳥 (2012), One on One Collection (2018)",
       "release_year": 2000,
       "lyricist": "因葵",
       "composer": "江志仁/錢文璟",
@@ -677,7 +677,7 @@
       "song_id": "S049",
       "title": "勇",
       "title_english": "",
-      "album": "M Vs M上半場 (2002)",
+      "album": "M VS M 上半場 (2002)",
       "release_year": 2002,
       "lyricist": "黃偉文",
       "composer": "Barry Chung",
@@ -720,7 +720,7 @@
       "title": "最後的玫瑰",
       "title_english": "",
       "album": "",
-      "release_year": "",
+      "release_year": null,
       "lyricist": "",
       "composer": "",
       "arranger": "",
@@ -943,7 +943,7 @@
       "song_id": "S069",
       "title": "斗零踭",
       "title_english": "",
-      "album": "HOME (2010)",
+      "album": "Home (2010)",
       "release_year": 2010,
       "lyricist": "藍奕邦",
       "composer": "藍奕邦",
@@ -985,7 +985,7 @@
       "song_id": "S072",
       "title": "E-714342",
       "title_english": "",
-      "album": "私日記 (1997), 體驗入學 (1998)",
+      "album": "私日記 (1997)",
       "release_year": 1997,
       "lyricist": "林夕",
       "composer": "于逸堯",
@@ -1069,7 +1069,7 @@
       "song_id": "S078",
       "title": "開大",
       "title_english": "",
-      "album": "2004 開大 (2004)",
+      "album": "2004開大 (2004)",
       "release_year": 2004,
       "lyricist": "黃偉文",
       "composer": "Eric Kwok",
@@ -1111,7 +1111,7 @@
       "song_id": "S081",
       "title": "飲酒思源",
       "title_english": "",
-      "album": "HOME (2010)",
+      "album": "Home (2010)",
       "release_year": 2010,
       "lyricist": "林夕",
       "composer": "陳輝陽",
@@ -1139,7 +1139,7 @@
       "song_id": "S083",
       "title": "自由行",
       "title_english": "",
-      "album": "2004 開大 (2003)",
+      "album": "2004開大 (2003)",
       "release_year": 2003,
       "lyricist": "黃偉文",
       "composer": "雷頌德",
@@ -1167,7 +1167,7 @@
       "song_id": "S085",
       "title": "Wonder Woman",
       "title_english": "",
-      "album": "One On One (2018)",
+      "album": "One on One Collection (2018)",
       "release_year": 2018,
       "lyricist": "6號@RubberBand",
       "composer": "王雙駿",
@@ -1223,7 +1223,7 @@
       "song_id": "S089",
       "title": "我係我",
       "title_english": "",
-      "album": "HOME (2010), Ready Or Not (2011)",
+      "album": "Home (2010), Ready or Not (2011)",
       "release_year": 2010,
       "lyricist": "林夕",
       "composer": "于逸堯",
@@ -1308,7 +1308,7 @@
       "title": "說好的幸福呢",
       "title_english": "",
       "album": "",
-      "release_year": "",
+      "release_year": null,
       "lyricist": "",
       "composer": "",
       "arranger": "",
@@ -1335,7 +1335,7 @@
       "song_id": "S097",
       "title": "小星星",
       "title_english": "",
-      "album": "2004 開大 (2003)",
+      "album": "2004開大 (2003)",
       "release_year": 2003,
       "lyricist": "林夕",
       "composer": "陳輝陽",
@@ -1363,7 +1363,7 @@
       "song_id": "S099",
       "title": "塔羅迷",
       "title_english": "",
-      "album": "M Vs M上半場 (2002)",
+      "album": "M VS M 上半場 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "雷頌德",
@@ -1377,7 +1377,7 @@
       "song_id": "S100",
       "title": "閃靈",
       "title_english": "",
-      "album": "M Vs M上半場 (2002)",
+      "album": "M VS M 上半場 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "伍樂城@RNLS",
@@ -1391,7 +1391,7 @@
       "song_id": "S101",
       "title": "楊千嬅",
       "title_english": "",
-      "album": "M Vs M上半場 (2002)",
+      "album": "M VS M 上半場 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "Erick Kwok",
@@ -1811,7 +1811,7 @@
       "song_id": "S136",
       "title": "不一樣的夏",
       "title_english": "",
-      "album": "體驗入學 (1998)",
+      "album": "楊千嬅體驗入學 (1998)",
       "release_year": 1998,
       "lyricist": "何秀萍",
       "composer": "于逸堯",
@@ -1825,7 +1825,7 @@
       "song_id": "S138",
       "title": "讓我飛",
       "title_english": "",
-      "album": "體驗入學 (1998)",
+      "album": "楊千嬅體驗入學 (1998)",
       "release_year": 1998,
       "lyricist": "李敏",
       "composer": "Dick Lee",
@@ -1839,7 +1839,7 @@
       "song_id": "S139",
       "title": "快樂的",
       "title_english": "",
-      "album": "體驗入學 (1998)",
+      "album": "楊千嬅體驗入學 (1998)",
       "release_year": 1998,
       "lyricist": "何秀萍",
       "composer": "林子揚",
@@ -1853,7 +1853,7 @@
       "song_id": "S140",
       "title": "一些生活",
       "title_english": "",
-      "album": "Miriam 1 to 100 (1998)",
+      "album": "1-100 (1998)",
       "release_year": 1998,
       "lyricist": "何秀萍",
       "composer": "許冠傑",
@@ -2161,7 +2161,7 @@
       "song_id": "S162",
       "title": "快樂與哀愁",
       "title_english": "",
-      "album": "Kiss Me Soft（avep1） (2000)",
+      "album": "Play It Loud, Kiss Me Soft (2000)",
       "release_year": 2000,
       "lyricist": "于逸堯",
       "composer": "黃丹儀",
@@ -2329,7 +2329,7 @@
       "song_id": "S176",
       "title": "香港小姐",
       "title_english": "",
-      "album": "M Vs M上半場 (2002)",
+      "album": "M VS M 上半場 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "于逸堯@人山人海",
@@ -2343,7 +2343,7 @@
       "song_id": "S177",
       "title": "友誼小姐",
       "title_english": "",
-      "album": "M Vs M上半場 (2002)",
+      "album": "M VS M 上半場 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "蔡德才@人山人海",
@@ -2357,7 +2357,7 @@
       "song_id": "S178",
       "title": "男女關係科",
       "title_english": "",
-      "album": "M Vs M上半場 (2002)",
+      "album": "M VS M 上半場 (2002)",
       "release_year": 2002,
       "lyricist": "于逸堯@人山人海",
       "composer": "梁翹柏",
@@ -2371,7 +2371,7 @@
       "song_id": "S180",
       "title": "滿漢全席",
       "title_english": "",
-      "album": "M Vs M下半場 (2002)",
+      "album": "M VS M 下半場 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "伍樂城",
@@ -2385,7 +2385,7 @@
       "song_id": "S181",
       "title": "適量運動與均衡飲食",
       "title_english": "",
-      "album": "M Vs M下半場 (2002)",
+      "album": "M VS M 下半場 (2002)",
       "release_year": 2002,
       "lyricist": "何秀萍",
       "composer": "梁翹柏",
@@ -2399,7 +2399,7 @@
       "song_id": "S182",
       "title": "還未夠快",
       "title_english": "",
-      "album": "M Vs M下半場 (2002)",
+      "album": "M VS M 下半場 (2002)",
       "release_year": 2002,
       "lyricist": "于逸堯@人山人海",
       "composer": "蔡德才@人山人海",
@@ -2413,7 +2413,7 @@
       "song_id": "S183",
       "title": "慢·熱...北海道夏",
       "title_english": "",
-      "album": "M Vs M下半場 (2002)",
+      "album": "M VS M 下半場 (2002)",
       "release_year": 2002,
       "lyricist": "何秀萍",
       "composer": "錢文璟",
@@ -2427,7 +2427,7 @@
       "song_id": "S184",
       "title": "談談情、探探聽",
       "title_english": "",
-      "album": "M Vs M下半場 (2002), Simply Me (2007)",
+      "album": "M VS M 下半場 (2002), Simply Me (2007)",
       "release_year": 2002,
       "lyricist": "于逸堯",
       "composer": "Barry Chung",
@@ -2441,7 +2441,7 @@
       "song_id": "S185",
       "title": "MR.",
       "title_english": "",
-      "album": "M Vs M下半場 (2002)",
+      "album": "M VS M 下半場 (2002)",
       "release_year": 2002,
       "lyricist": "黃偉文",
       "composer": "伍樂城",
@@ -2455,7 +2455,7 @@
       "song_id": "S186",
       "title": "學習街童",
       "title_english": "",
-      "album": "M Vs M下半場 (2002)",
+      "album": "M VS M 下半場 (2002)",
       "release_year": 2002,
       "lyricist": "謝西嘉",
       "composer": "雷頌德/楊千嬅",
@@ -2469,7 +2469,7 @@
       "song_id": "S187",
       "title": "慳D",
       "title_english": "",
-      "album": "M Vs M下半場 (2002)",
+      "album": "M VS M 下半場 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "伍樂城",
@@ -2483,7 +2483,7 @@
       "song_id": "S188",
       "title": "向左走向右走",
       "title_english": "",
-      "album": "M vs M總決賽 (2002)",
+      "album": "M VS M 總決賽 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "雷頌德",
@@ -2497,7 +2497,7 @@
       "song_id": "S189",
       "title": "向左走",
       "title_english": "",
-      "album": "M vs M總決賽 (2002)",
+      "album": "M VS M 總決賽 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "雷頌德",
@@ -2511,7 +2511,7 @@
       "song_id": "S190",
       "title": "向右走",
       "title_english": "",
-      "album": "M vs M總決賽 (2002)",
+      "album": "M VS M 總決賽 (2002)",
       "release_year": 2002,
       "lyricist": "林夕",
       "composer": "雷頌德",
@@ -2903,7 +2903,7 @@
       "song_id": "S218",
       "title": "星之碎片",
       "title_english": "",
-      "album": "2004 開大 (2004)",
+      "album": "2004開大 (2004)",
       "release_year": 2004,
       "lyricist": "林夕",
       "composer": "伍樂城@RNLS",
@@ -2915,9 +2915,9 @@
     },
     {
       "song_id": "S219",
-      "title": "花好月圓夜",
+      "title": "花好月圓夜 - 廣東版",
       "title_english": "",
-      "album": "2004 開大 (2004)",
+      "album": "2004開大 (2004)",
       "release_year": 2004,
       "lyricist": "任賢齊(國)/林夕(粵)",
       "composer": "任賢齊",
@@ -2931,7 +2931,7 @@
       "song_id": "S220",
       "title": "鸞鳳和鳴 - 廣東版",
       "title_english": "",
-      "album": "2004 開大 (2004)",
+      "album": "2004開大 (2004)",
       "release_year": 2004,
       "lyricist": "林夕",
       "composer": "伍樂城",
@@ -2942,10 +2942,24 @@
       "original_artist": ""
     },
     {
+      "song_id": "S221",
+      "title": "花好月圓夜 - 國語版",
+      "title_english": "",
+      "album": "2004開大 (2004)",
+      "release_year": 2004,
+      "lyricist": "任賢齊",
+      "composer": "任賢齊",
+      "arranger": "伍樂城",
+      "notes": "",
+      "is_other_artist": false,
+      "language": "",
+      "original_artist": ""
+    },
+    {
       "song_id": "S222",
       "title": "萬世流芳 - 國語版",
       "title_english": "",
-      "album": "2004 開大 (2004)",
+      "album": "2004開大 (2004)",
       "release_year": 2004,
       "lyricist": "林夕",
       "composer": "伍樂城",
@@ -3029,7 +3043,7 @@
       "song_id": "S228",
       "title": "傻仔",
       "title_english": "",
-      "album": "傻仔新曲 + 精選 (2004)",
+      "album": "傻仔2004 (2004)",
       "release_year": 2004,
       "lyricist": "黃偉文",
       "composer": "伍樂城",
@@ -3615,7 +3629,7 @@
     },
     {
       "song_id": "S271",
-      "title": "半邊天 - 師奶兵團主題曲",
+      "title": "半邊天",
       "title_english": "",
       "album": "半邊天（單曲） (2007)",
       "release_year": 2007,
@@ -3852,24 +3866,10 @@
       "original_artist": ""
     },
     {
-      "song_id": "S288",
-      "title": "All About Love - Little Orchestra Mix",
-      "title_english": "",
-      "album": "原來過得很快樂 (2007)",
-      "release_year": 2007,
-      "lyricist": "林若寧",
-      "composer": "楊鎮邦/曾家瑋",
-      "arranger": "雷頌德",
-      "notes": "",
-      "is_other_artist": false,
-      "language": "",
-      "original_artist": ""
-    },
-    {
       "song_id": "S289",
       "title": "偷生",
       "title_english": "",
-      "album": "囍愛楊千嬅 (2010)",
+      "album": "囍愛 (2010)",
       "release_year": 2010,
       "lyricist": "方傑",
       "composer": "Walter，Wong",
@@ -3883,7 +3883,7 @@
       "song_id": "S290",
       "title": "童話",
       "title_english": "",
-      "album": "囍愛楊千嬅 (2010)",
+      "album": "囍愛 (2010)",
       "release_year": 2010,
       "lyricist": "翻唱",
       "composer": "翻唱",
@@ -3897,7 +3897,7 @@
       "song_id": "S291",
       "title": "你把我灌醉",
       "title_english": "",
-      "album": "囍愛楊千嬅 (2010)",
+      "album": "囍愛 (2010)",
       "release_year": 2010,
       "lyricist": "翻唱",
       "composer": "翻唱",
@@ -3911,7 +3911,7 @@
       "song_id": "S292",
       "title": "我的醉愛",
       "title_english": "",
-      "album": "囍愛楊千嬅 (2010)",
+      "album": "囍愛 (2010)",
       "release_year": 2010,
       "lyricist": "陳少琪",
       "composer": "金培達",
@@ -3923,9 +3923,9 @@
     },
     {
       "song_id": "S293",
-      "title": "大城大事 - 女子十二樂坊合奏版",
+      "title": "大城大事",
       "title_english": "",
-      "album": "囍愛楊千嬅 (2010)",
+      "album": "囍愛 (2010)",
       "release_year": 2010,
       "lyricist": "林夕",
       "composer": "雷頌德",
@@ -3939,7 +3939,7 @@
       "song_id": "S294",
       "title": "你是如此難以忘記",
       "title_english": "",
-      "album": "囍愛楊千嬅 (2010)",
+      "album": "囍愛 (2010)",
       "release_year": 2010,
       "lyricist": "翻唱",
       "composer": "翻唱",
@@ -3953,7 +3953,7 @@
       "song_id": "S295",
       "title": "呼吸需要",
       "title_english": "",
-      "album": "HOME (2010)",
+      "album": "Home (2010)",
       "release_year": 2010,
       "lyricist": "陳詠謙",
       "composer": "Kendy Suen",
@@ -3967,7 +3967,7 @@
       "song_id": "S296",
       "title": "初見",
       "title_english": "",
-      "album": "HOME (2010)",
+      "album": "Home (2010)",
       "release_year": 2010,
       "lyricist": "張美賢",
       "composer": "鄧智偉",
@@ -3981,7 +3981,7 @@
       "song_id": "S297",
       "title": "Ready or Not",
       "title_english": "",
-      "album": "Ready Or Not (2010)",
+      "album": "Ready or Not (2010)",
       "release_year": 2010,
       "lyricist": "周耀輝",
       "composer": "陳台證",
@@ -3995,7 +3995,7 @@
       "song_id": "S298",
       "title": "女人三十",
       "title_english": "",
-      "album": "Ready Or Not (2011)",
+      "album": "Ready or Not (2011)",
       "release_year": 2011,
       "lyricist": "黃婷",
       "composer": "林一峰",
@@ -4009,7 +4009,7 @@
       "song_id": "S299",
       "title": "哭出來",
       "title_english": "",
-      "album": "Ready Or Not (2011)",
+      "album": "Ready or Not (2011)",
       "release_year": 2011,
       "lyricist": "林夕",
       "composer": "林一峰",
@@ -4023,7 +4023,7 @@
       "song_id": "S300",
       "title": "聖女不敗",
       "title_english": "",
-      "album": "Ready Or Not (2011)",
+      "album": "Ready or Not (2011)",
       "release_year": 2011,
       "lyricist": "李焯雄",
       "composer": "梁翹柏",
@@ -4037,7 +4037,7 @@
       "song_id": "S301",
       "title": "有種沉默叫想念",
       "title_english": "",
-      "album": "Ready Or Not (2011)",
+      "album": "Ready or Not (2011)",
       "release_year": 2011,
       "lyricist": "吳向飛",
       "composer": "曲世聰",
@@ -4051,7 +4051,7 @@
       "song_id": "S302",
       "title": "醒了",
       "title_english": "",
-      "album": "Ready Or Not (2011)",
+      "album": "Ready or Not (2011)",
       "release_year": 2011,
       "lyricist": "魯維孝",
       "composer": "GJ 蔣卓嘉",
@@ -4065,7 +4065,7 @@
       "song_id": "S303",
       "title": "還未完成的拼圖",
       "title_english": "",
-      "album": "Ready Or Not (2011)",
+      "album": "Ready or Not (2011)",
       "release_year": 2011,
       "lyricist": "姚若龍",
       "composer": "PAN",
@@ -4079,7 +4079,7 @@
       "song_id": "S304",
       "title": "未完的歌",
       "title_english": "",
-      "album": "Ready Or Not (2011)",
+      "album": "Ready or Not (2011)",
       "release_year": 2011,
       "lyricist": "張美賢",
       "composer": "鄧智偉",
@@ -4286,20 +4286,6 @@
       "original_artist": ""
     },
     {
-      "song_id": "S320",
-      "title": "沒有關係不是愛情",
-      "title_english": "",
-      "album": "如果大家都擁有海 (2015)",
-      "release_year": 2015,
-      "lyricist": "于逸堯",
-      "composer": "徐繼宗",
-      "arranger": "",
-      "notes": "",
-      "is_other_artist": false,
-      "language": "",
-      "original_artist": ""
-    },
-    {
       "song_id": "S321",
       "title": "風起了",
       "title_english": "",
@@ -4401,7 +4387,7 @@
       "song_id": "S328",
       "title": "一二三，三二一",
       "title_english": "",
-      "album": "One On One (2018)",
+      "album": "One on One Collection (2018)",
       "release_year": 2018,
       "lyricist": "林夕",
       "composer": "Supper Moment",
@@ -4415,7 +4401,7 @@
       "song_id": "S329",
       "title": "搖滾之母",
       "title_english": "",
-      "album": "One On One (2018)",
+      "album": "One on One Collection (2018)",
       "release_year": 2018,
       "lyricist": "林海峰",
       "composer": "黃貫中",
@@ -4611,7 +4597,7 @@
       "song_id": "S344",
       "title": "其實我記得",
       "title_english": "",
-      "album": "陳奕迅 (1996)",
+      "album": "n.a.",
       "release_year": 1996,
       "lyricist": "張美賢",
       "composer": "江港生",
@@ -4763,7 +4749,7 @@
     },
     {
       "song_id": "S355",
-      "title": "沒關係不是愛情",
+      "title": "沒有關係不是愛情",
       "title_english": "",
       "album": "如果大家都擁有海 (2015)",
       "release_year": 2015,
@@ -4830,9 +4816,1064 @@
       "is_other_artist": false,
       "language": "",
       "original_artist": ""
+    },
+    {
+      "song_id": "S360",
+      "title": "多久沒有談天光",
+      "title_english": "",
+      "album": "汪蘇瀧概念創作集《聯名2》 (2026)",
+      "release_year": 2026,
+      "lyricist": "王樂儀",
+      "composer": "汪蘇瀧",
+      "arranger": "汪蘇瀧",
+      "notes": "",
+      "is_other_artist": false,
+      "language": "",
+      "original_artist": ""
+    },
+    {
+      "song_id": "S361",
+      "title": "Girls Just Wanna Have Fun",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "Cyndi Lauper"
+    },
+    {
+      "song_id": "S362",
+      "title": "乜都拗",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "羅文"
+    },
+    {
+      "song_id": "S363",
+      "title": "Monica",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "張國榮"
+    },
+    {
+      "song_id": "S364",
+      "title": "天花亂墜",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "草蜢"
+    },
+    {
+      "song_id": "S365",
+      "title": "烈焰紅唇",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "梅艷芳"
+    },
+    {
+      "song_id": "S366",
+      "title": "凍咖啡",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "汪明荃"
+    },
+    {
+      "song_id": "S367",
+      "title": "愛情 I Don't Know",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "林憶蓮"
+    },
+    {
+      "song_id": "S368",
+      "title": "男人最痛",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "許志安"
+    },
+    {
+      "song_id": "S369",
+      "title": "英雄故事",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "成龍"
+    },
+    {
+      "song_id": "S370",
+      "title": "終身學習",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "鄭融"
+    },
+    {
+      "song_id": "S371",
+      "title": "七級半地震",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "甄妮"
+    },
+    {
+      "song_id": "S372",
+      "title": "我愛小忌廉",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "戴蘊慧"
+    },
+    {
+      "song_id": "S373",
+      "title": "輝煌",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "女子十二樂坊"
+    },
+    {
+      "song_id": "S374",
+      "title": "帝女花之香夭",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "AT17"
+    },
+    {
+      "song_id": "S375",
+      "title": "你好嗎",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "AT17"
+    },
+    {
+      "song_id": "S376",
+      "title": "始終一天",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "AT17"
+    },
+    {
+      "song_id": "S377",
+      "title": "The Best is Yet to Come",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "AT17"
+    },
+    {
+      "song_id": "S378",
+      "title": "你有自己一套",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "AT17"
+    },
+    {
+      "song_id": "S379",
+      "title": "究竟天有幾高",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "AT17"
+    },
+    {
+      "song_id": "S380",
+      "title": "正教育",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "AT17"
+    },
+    {
+      "song_id": "S381",
+      "title": "女扮男生",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "AT17"
+    },
+    {
+      "song_id": "S382",
+      "title": "十年",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "陳奕迅"
+    },
+    {
+      "song_id": "S383",
+      "title": "突然好想你",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "五月天"
+    },
+    {
+      "song_id": "S384",
+      "title": "我的歌聲裡",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "曲婉婷"
+    },
+    {
+      "song_id": "S385",
+      "title": "無條件",
+      "title_english": "",
+      "album": "",
+      "release_year": "",
+      "lyricist": "",
+      "composer": "",
+      "arranger": "",
+      "notes": "",
+      "is_other_artist": true,
+      "language": "",
+      "original_artist": "陳奕迅"
     }
   ],
   "concerts": [
+    {
+      "concert_id": "C001",
+      "concert_name": "My Concert 花樣千嬅演唱會",
+      "concert_name_english": "My Concert 2000",
+      "notes": "楊千嬅首個個人紅館售票演唱會，主題曲《放煙花》。",
+      "sessions": [
+        {
+          "session_id": "C001-1",
+          "date": "2000-09-21",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C001-2",
+          "date": "2000-09-22",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        }
+      ]
+    },
+    {
+      "concert_id": "C002",
+      "concert_name": "楊千嬅 Minor Classics Live 2011",
+      "concert_name_english": "Minor Classics Live",
+      "notes": "楊千嬅產子前最後一個音樂會，重新演繹多首non-主打歌經典。",
+      "sessions": [
+        {
+          "session_id": "C002-1",
+          "date": "2011-11-24",
+          "city": "香港",
+          "country": "香港",
+          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
+        },
+        {
+          "session_id": "C002-2",
+          "date": "2011-11-25",
+          "city": "香港",
+          "country": "香港",
+          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
+        },
+        {
+          "session_id": "C002-3",
+          "date": "2011-11-26",
+          "city": "香港",
+          "country": "香港",
+          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
+        },
+        {
+          "session_id": "C002-4",
+          "date": "2011-11-27",
+          "city": "香港",
+          "country": "香港",
+          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
+        },
+        {
+          "session_id": "C002-5",
+          "date": "2011-11-28",
+          "city": "香港",
+          "country": "香港",
+          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
+        }
+      ]
+    },
+    {
+      "concert_id": "C003",
+      "concert_name": "Let's Begin Concert 2015 楊千嬅世界巡迴演唱會",
+      "concert_name_english": "Let's Begin World Tour 2015",
+      "notes": "出道二十週年紀念巡迴演唱會，第六次紅館個唱。此工作表僅收錄已核實日期的香港場次；巡演其後亦到訪廣州、澳門、新加坡、佛山、馬來西亞等地，惟確實日期未能完全核實，故從略。",
+      "sessions": [
+        {
+          "session_id": "C003-1",
+          "date": "2015-01-24",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C003-2",
+          "date": "2015-01-25",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C003-3",
+          "date": "2015-01-26",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C003-4",
+          "date": "2015-01-27",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C003-5",
+          "date": "2015-01-28",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C003-6",
+          "date": "2015-01-30",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C003-7",
+          "date": "2015-01-31",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        }
+      ]
+    },
+    {
+      "concert_id": "C004",
+      "concert_name": "楊千嬅三二一GO! 演唱會 2017",
+      "concert_name_english": "321 GO! Concert",
+      "notes": "AIA呈獻，第七個個人紅館售票演唱會，一連11場，主題曲《Wonder Woman》。",
+      "sessions": [
+        {
+          "session_id": "C004-1",
+          "date": "2017-12-23",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-2",
+          "date": "2017-12-24",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-3",
+          "date": "2017-12-25",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-4",
+          "date": "2017-12-26",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-5",
+          "date": "2017-12-27",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-6",
+          "date": "2017-12-28",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-7",
+          "date": "2017-12-29",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-8",
+          "date": "2017-12-30",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-9",
+          "date": "2017-12-31",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-10",
+          "date": "2018-01-01",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C004-11",
+          "date": "2018-01-02",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        }
+      ]
+    },
+    {
+      "concert_id": "C005",
+      "concert_name": "My Beautiful Live 楊千嬅世界巡迴演唱會（中國）",
+      "concert_name_english": "My Beautiful Live World Tour",
+      "notes": "2019-2020年大型世界巡迴演唱會，主題曲《穿越》，最終合共32場。此工作表僅收錄已核實日期／城市的場次，部分場地名稱未能核實故留空；完整巡演尚包括香港、無錫、馬來西亞雲頂、美加等站，惟資料不足未能收錄。",
+      "sessions": [
+        {
+          "session_id": "C005-1",
+          "date": "2019-03-30",
+          "city": "廣州",
+          "country": "中國",
+          "venue": "海心沙亞運公園"
+        },
+        {
+          "session_id": "C005-2",
+          "date": "2019-04-13",
+          "city": "珠海",
+          "country": "中國",
+          "venue": "珠海市體育中心體育場"
+        },
+        {
+          "session_id": "C005-3",
+          "date": "2019-05-11",
+          "city": "重慶",
+          "country": "中國",
+          "venue": "肇慶新區體育中心專業足球場"
+        },
+        {
+          "session_id": "C005-4",
+          "date": "2019-05-18",
+          "city": "湛江",
+          "country": "中國",
+          "venue": "湛江奧林匹克體育中心體育場"
+        },
+        {
+          "session_id": "C005-5",
+          "date": "2019-05-24",
+          "city": "深圳",
+          "country": "中國",
+          "venue": "深圳灣體育中心「春繭」體育館"
+        },
+        {
+          "session_id": "C005-6",
+          "date": "2019-05-25",
+          "city": "深圳",
+          "country": "中國",
+          "venue": "深圳灣體育中心「春繭」體育館"
+        },
+        {
+          "session_id": "C005-7",
+          "date": "2019-06-14",
+          "city": "佛山",
+          "country": "中國",
+          "venue": "佛山國際體育文化演藝中心"
+        },
+        {
+          "session_id": "C005-8",
+          "date": "2019-06-15",
+          "city": "佛山",
+          "country": "中國",
+          "venue": "佛山國際體育文化演藝中心"
+        },
+        {
+          "session_id": "C005-9",
+          "date": "2019-06-22",
+          "city": "澳門",
+          "country": "澳門",
+          "venue": "威尼斯人金光綜藝館"
+        },
+        {
+          "session_id": "C005-10",
+          "date": "2019-06-23",
+          "city": "澳門",
+          "country": "澳門",
+          "venue": "威尼斯人金光綜藝館"
+        },
+        {
+          "session_id": "C005-11",
+          "date": "2019-06-29",
+          "city": "北京",
+          "country": "中國",
+          "venue": "凱迪拉克中心"
+        },
+        {
+          "session_id": "C005-12",
+          "date": "2019-08-10",
+          "city": "杭州",
+          "country": "中國",
+          "venue": "黃龍體育中心體育館"
+        },
+        {
+          "session_id": "C005-13",
+          "date": "2019-08-17",
+          "city": "南京",
+          "country": "中國",
+          "venue": "南京青奧體育公園體育館"
+        },
+        {
+          "session_id": "C005-14",
+          "date": "2019-08-24",
+          "city": "惠州",
+          "country": "中國",
+          "venue": "惠州奧林匹克體育場"
+        },
+        {
+          "session_id": "C005-15",
+          "date": "2019-08-31",
+          "city": "大連",
+          "country": "中國",
+          "venue": "大連體育中心體育館"
+        },
+        {
+          "session_id": "C005-16",
+          "date": "2019-09-07",
+          "city": "上海",
+          "country": "中國",
+          "venue": "虹口足球場"
+        },
+        {
+          "session_id": "C005-17",
+          "date": "2019-09-14",
+          "city": "汕頭",
+          "country": "中國",
+          "venue": "汕頭方特歡樂世界·藍水星·室外停車場"
+        },
+        {
+          "session_id": "C005-18",
+          "date": "2019-11-02",
+          "city": "南寧",
+          "country": "中國",
+          "venue": "廣西體育中心體育場"
+        },
+        {
+          "session_id": "C005-19",
+          "date": "2019-11-09",
+          "city": "武漢",
+          "country": "中國",
+          "venue": "武漢光谷國際網球中心"
+        },
+        {
+          "session_id": "C005-20",
+          "date": "2019-11-16",
+          "city": "成都",
+          "country": "中國",
+          "venue": "五糧液成都金融城演藝中心"
+        },
+        {
+          "session_id": "C005-21",
+          "date": "2019-12-21",
+          "city": "蘇州",
+          "country": "中國",
+          "venue": "蘇州奧林匹克體育中心體育館"
+        },
+        {
+          "session_id": "C005-22",
+          "date": "2019-12-29",
+          "city": "天津",
+          "country": "中國",
+          "venue": "天津奧林匹克中心體育館"
+        },
+        {
+          "session_id": "C005-23",
+          "date": "2020-01-04",
+          "city": "佛山",
+          "country": "中國",
+          "venue": "佛山高明體育中心體育場"
+        },
+        {
+          "session_id": "C005-24",
+          "date": "2020-01-11",
+          "city": "海口",
+          "country": "中國",
+          "venue": "海口市五源河體育場"
+        },
+        {
+          "session_id": "C005-25",
+          "date": "2020-01-18",
+          "city": "茂名",
+          "country": "中國",
+          "venue": "茂名體育中心體育場"
+        }
+      ]
+    },
+    {
+      "concert_id": "C033",
+      "concert_name": "My Beautiful Live 楊千嬅世界巡迴演唱會（海外）",
+      "concert_name_english": "My Beautiful Live World Tour (Overseas)",
+      "notes": "2019-2020年大型世界巡迴演唱會，主題曲《穿越》，最終合共32場。此工作表僅收錄已核實日期／城市的場次，部分場地名稱未能核實故留空；完整巡演尚包括香港、無錫、馬來西亞雲頂、美加等站，惟資料不足未能收錄。",
+      "sessions": [
+        {
+          "session_id": "C033-1",
+          "date": "2019-10-03",
+          "city": "墨爾本",
+          "country": "澳洲",
+          "venue": "Melbourne Convention Centre"
+        },
+        {
+          "session_id": "C033-2",
+          "date": "2019-10-06",
+          "city": "悉尼",
+          "country": "澳洲",
+          "venue": "The Star Event Centre"
+        },
+        {
+          "session_id": "C033-3",
+          "date": "2019-10-09",
+          "city": "奧克蘭",
+          "country": "紐西蘭",
+          "venue": "The Trusts Arena"
+        },
+        {
+          "session_id": "C033-4",
+          "date": "2019-11-22",
+          "city": "多倫多",
+          "country": "加拿大",
+          "venue": "Coca-Cola Coliseum"
+        },
+        {
+          "session_id": "C033-5",
+          "date": "2019-11-28",
+          "city": "大西洋城",
+          "country": "中國",
+          "venue": "Hard Rock Live"
+        },
+        {
+          "session_id": "C033-6",
+          "date": "2019-11-30",
+          "city": "拉斯維加斯",
+          "country": "中國",
+          "venue": "MGM Grand Garden Arena"
+        },
+        {
+          "session_id": "C033-7",
+          "date": "2019-12-02",
+          "city": "溫哥華",
+          "country": "加拿大",
+          "venue": "The Orpheum"
+        }
+      ]
+    },
+    {
+      "concert_id": "C006",
+      "concert_name": "楊千嬅 B minor 音樂會",
+      "concert_name_english": "B minor Music Live 2022",
+      "notes": "第二次Side Track主題演唱會，全新歌曲《還有事情可慶祝》及《無去無來》首次曝光。維基百科僅列出第一場開場三首歌曲，完整歌單未能核實，故從略。",
+      "sessions": [
+        {
+          "session_id": "C006-1",
+          "date": "2022-12-17",
+          "city": "香港",
+          "country": "香港",
+          "venue": "亞洲國際博覽館 Arena"
+        },
+        {
+          "session_id": "C006-2",
+          "date": "2022-12-18",
+          "city": "香港",
+          "country": "香港",
+          "venue": "亞洲國際博覽館 Arena"
+        }
+      ]
+    },
+    {
+      "concert_id": "C007",
+      "concert_name": "楊千嬅 MY TREE OF LIVE 世界巡迴演唱會 1.0（中國）",
+      "concert_name_english": "MY TREE OF LIVE World Tour 1.0 (China)",
+      "notes": "楊千嬅第二次大型世界巡迴演唱會，2023年5月27日於廣州開始，歷時21個月，合共於逾50個城市演出53場，2025年1月以廣州返場作結。此工作表僅收錄已核實日期的少數場次；完整53場行程請自行從官方公告補充。",
+      "sessions": [
+        {
+          "session_id": "C007-1",
+          "date": "2023-05-27",
+          "city": "廣州",
+          "country": "中國",
+          "venue": "海心沙亞運公園"
+        },
+        {
+          "session_id": "C007-2",
+          "date": "2023-05-28",
+          "city": "廣州",
+          "country": "中國",
+          "venue": "海心沙亞運公園"
+        },
+        {
+          "session_id": "C007-3",
+          "date": "2023-06-17",
+          "city": "廈門",
+          "country": "中國",
+          "venue": "廈門體育中心體育場"
+        },
+        {
+          "session_id": "C007-4",
+          "date": "2023-07-22",
+          "city": "深圳",
+          "country": "中國",
+          "venue": "深圳灣體育中心體育場"
+        },
+        {
+          "session_id": "C007-5",
+          "date": "2023-08-05",
+          "city": "肇慶",
+          "country": "中國",
+          "venue": "肇慶體育中心體育場"
+        },
+        {
+          "session_id": "C007-6",
+          "date": "2023-08-19",
+          "city": "佛山",
+          "country": "中國",
+          "venue": "佛山世紀蓮體育中心體育場"
+        },
+        {
+          "session_id": "C007-7",
+          "date": "2023-08-26",
+          "city": "湛江",
+          "country": "中國",
+          "venue": "湛江市體育中心體育場"
+        },
+        {
+          "session_id": "C007-8",
+          "date": "2023-09-09",
+          "city": "上海",
+          "country": "中國",
+          "venue": "虹口足球場"
+        },
+        {
+          "session_id": "C007-9",
+          "date": "2023-10-14",
+          "city": "重慶",
+          "country": "中國",
+          "venue": "重慶市奧林匹克體育中心體育場"
+        },
+        {
+          "session_id": "C007-10",
+          "date": "2023-10-28",
+          "city": "武漢",
+          "country": "中國",
+          "venue": "五環體育中心體育場"
+        },
+        {
+          "session_id": "C007-11",
+          "date": "2023-11-04",
+          "city": "汕頭",
+          "country": "中國",
+          "venue": "汕頭體育中心體育場"
+        },
+        {
+          "session_id": "C007-12",
+          "date": "2023-11-11",
+          "city": "江門",
+          "country": "中國",
+          "venue": "江門體育中心體育場"
+        },
+        {
+          "session_id": "C007-13",
+          "date": "2024-01-06",
+          "city": "南寧",
+          "country": "中國",
+          "venue": "廣西體育中心體育場"
+        },
+        {
+          "session_id": "C007-14",
+          "date": "2024-01-20",
+          "city": "清遠",
+          "country": "中國",
+          "venue": "清遠體育中心體育場"
+        },
+        {
+          "session_id": "C007-15",
+          "date": "2024-02-14",
+          "city": "澳門",
+          "country": "澳門",
+          "venue": "銀河綜藝館"
+        },
+        {
+          "session_id": "C007-16",
+          "date": "2024-02-15",
+          "city": "澳門",
+          "country": "澳門",
+          "venue": "銀河綜藝館"
+        }
+      ]
+    },
+    {
+      "concert_id": "C008",
+      "concert_name": "楊千嬅 Live MY LIVE 2025 演唱會",
+      "concert_name_english": "Live MY LIVE 2025",
+      "notes": "第八次紅館個人售票演唱會，慶祝出道30週年，一連六場三面台演出，主題曲《Live MY Life》。",
+      "sessions": [
+        {
+          "session_id": "C008-1",
+          "date": "2025-11-29",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C008-2",
+          "date": "2025-11-30",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C008-3",
+          "date": "2025-12-01",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C008-4",
+          "date": "2025-12-02",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C008-5",
+          "date": "2025-12-03",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        },
+        {
+          "session_id": "C008-6",
+          "date": "2025-12-04",
+          "city": "香港",
+          "country": "香港",
+          "venue": "紅磡香港體育館"
+        }
+      ]
+    },
+    {
+      "concert_id": "C009",
+      "concert_name": "楊千嬅 RECOLLECTION 澳門演唱會",
+      "concert_name_english": "Recollection Macau Concert",
+      "notes": "MY TREE OF LIVE世巡以外的全新rundown，主題為「回憶」。完整歌單未能完全核實，僅收錄報導中明確提及的曲目。",
+      "sessions": [
+        {
+          "session_id": "C009-1",
+          "date": "2024-08-17",
+          "city": "澳門",
+          "country": "澳門",
+          "venue": "澳門倫敦人綜藝館"
+        },
+        {
+          "session_id": "C009-2",
+          "date": "2024-08-18",
+          "city": "澳門",
+          "country": "澳門",
+          "venue": "澳門倫敦人綜藝館"
+        }
+      ]
+    },
+    {
+      "concert_id": "C010",
+      "concert_name": "楊千嬅 MEET YOU AT THE HALFWAY MINI CONCERT 生日限定音樂會",
+      "concert_name_english": "Meet You at the Halfway Mini Concert",
+      "notes": "楊千嬅50歲生日限定歌迷聚會。歌單未能核實，故從略。",
+      "sessions": [
+        {
+          "session_id": "C010-1",
+          "date": "2024-02-03",
+          "city": "香港",
+          "country": "香港",
+          "venue": "新蒲崗 胡李名靜體育館"
+        }
+      ]
+    },
+    {
+      "concert_id": "C011",
+      "concert_name": "楊千嬅 52Hz Echoes 生日限定音樂會",
+      "concert_name_english": "52Hz Echoes Birthday Concert",
+      "notes": "楊千嬅52歲生日限定音樂會，首次於內地舉行四面台音樂會；會上官宣2026年《楊千嬅Live MY LIVE 1.0世界巡迴演唱會》。歌單未能核實，故從略。",
+      "sessions": [
+        {
+          "session_id": "C011-1",
+          "date": "2026-01-31",
+          "city": "重慶",
+          "country": "中國",
+          "venue": "重慶國際博覽中心"
+        }
+      ]
+    },
     {
       "concert_id": "C012",
       "concert_name": "楊千嬅加州紅紅人館903狂熱份子音樂會",
@@ -4867,28 +5908,6 @@
           "city": "香港",
           "country": "香港",
           "venue": "紅磡體育館"
-        }
-      ]
-    },
-    {
-      "concert_id": "C001",
-      "concert_name": "My Concert 花樣千嬅演唱會",
-      "concert_name_english": "My Concert 2000",
-      "notes": "楊千嬅首個個人紅館售票演唱會，主題曲《放煙花》。",
-      "sessions": [
-        {
-          "session_id": "C001-1",
-          "date": "2000-09-21",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C001-2",
-          "date": "2000-09-22",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
         }
       ]
     },
@@ -5200,49 +6219,6 @@
       ]
     },
     {
-      "concert_id": "C002",
-      "concert_name": "楊千嬅 Minor Classics Live 2011",
-      "concert_name_english": "Minor Classics Live",
-      "notes": "楊千嬅產子前最後一個音樂會，重新演繹多首non-主打歌經典。",
-      "sessions": [
-        {
-          "session_id": "C002-1",
-          "date": "2011-11-24",
-          "city": "香港",
-          "country": "香港",
-          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
-        },
-        {
-          "session_id": "C002-2",
-          "date": "2011-11-25",
-          "city": "香港",
-          "country": "香港",
-          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
-        },
-        {
-          "session_id": "C002-3",
-          "date": "2011-11-26",
-          "city": "香港",
-          "country": "香港",
-          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
-        },
-        {
-          "session_id": "C002-4",
-          "date": "2011-11-27",
-          "city": "香港",
-          "country": "香港",
-          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
-        },
-        {
-          "session_id": "C002-5",
-          "date": "2011-11-28",
-          "city": "香港",
-          "country": "香港",
-          "venue": "九龍灣國際展貿中心匯星廳(Star Hall)"
-        }
-      ]
-    },
-    {
       "concert_id": "C027",
       "concert_name": "903 ID CLUB 拉闊音樂會 楊千嬅 x 羅力威 x 許廷鏗 x 藍奕邦",
       "concert_name_english": "",
@@ -5254,63 +6230,6 @@
           "city": "香港",
           "country": "香港",
           "venue": "香港會議展覽中心"
-        }
-      ]
-    },
-    {
-      "concert_id": "C003",
-      "concert_name": "Let's Begin Concert 2015 楊千嬅世界巡迴演唱會",
-      "concert_name_english": "Let's Begin World Tour 2015",
-      "notes": "出道二十週年紀念巡迴演唱會，第六次紅館個唱。此工作表僅收錄已核實日期的香港場次；巡演其後亦到訪廣州、澳門、新加坡、佛山、馬來西亞等地，惟確實日期未能完全核實，故從略。",
-      "sessions": [
-        {
-          "session_id": "C003-1",
-          "date": "2015-01-24",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C003-2",
-          "date": "2015-01-25",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C003-3",
-          "date": "2015-01-26",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C003-4",
-          "date": "2015-01-27",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C003-5",
-          "date": "2015-01-28",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C003-6",
-          "date": "2015-01-30",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C003-7",
-          "date": "2015-01-31",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
         }
       ]
     },
@@ -5345,331 +6264,6 @@
       ]
     },
     {
-      "concert_id": "C004",
-      "concert_name": "楊千嬅三二一GO! 演唱會 2017",
-      "concert_name_english": "321 GO! Concert",
-      "notes": "AIA呈獻，第七個個人紅館售票演唱會，一連11場，主題曲《Wonder Woman》。",
-      "sessions": [
-        {
-          "session_id": "C004-1",
-          "date": "2017-12-23",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-2",
-          "date": "2017-12-24",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-3",
-          "date": "2017-12-25",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-4",
-          "date": "2017-12-26",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-5",
-          "date": "2017-12-27",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-6",
-          "date": "2017-12-28",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-7",
-          "date": "2017-12-29",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-8",
-          "date": "2017-12-30",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-9",
-          "date": "2017-12-31",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-10",
-          "date": "2018-01-01",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C004-11",
-          "date": "2018-01-02",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        }
-      ]
-    },
-    {
-      "concert_id": "C005",
-      "concert_name": "My Beautiful Live 楊千嬅世界巡迴演唱會（中國）",
-      "concert_name_english": "My Beautiful Live World Tour (China)",
-      "notes": "2019-2020年大型世界巡迴演唱會，主題曲《穿越》，最終合共32場。此工作表僅收錄已核實日期／城市的場次，部分場地名稱未能核實故留空；完整巡演尚包括香港、無錫、馬來西亞雲頂、美加等站，惟資料不足未能收錄。",
-      "sessions": [
-        {
-          "session_id": "C005-1",
-          "date": "2019-03-30",
-          "city": "廣州",
-          "country": "中國",
-          "venue": "海心沙亞運公園"
-        },
-        {
-          "session_id": "C005-2",
-          "date": "2019-04-13",
-          "city": "珠海",
-          "country": "中國",
-          "venue": "珠海市體育中心體育場"
-        },
-        {
-          "session_id": "C005-3",
-          "date": "2019-05-11",
-          "city": "重慶",
-          "country": "中國",
-          "venue": "肇慶新區體育中心專業足球場"
-        },
-        {
-          "session_id": "C005-4",
-          "date": "2019-05-18",
-          "city": "湛江",
-          "country": "中國",
-          "venue": "湛江奧林匹克體育中心體育場"
-        },
-        {
-          "session_id": "C005-5",
-          "date": "2019-05-24",
-          "city": "深圳",
-          "country": "中國",
-          "venue": "深圳灣體育中心「春繭」體育館"
-        },
-        {
-          "session_id": "C005-6",
-          "date": "2019-05-25",
-          "city": "深圳",
-          "country": "中國",
-          "venue": "深圳灣體育中心「春繭」體育館"
-        },
-        {
-          "session_id": "C005-7",
-          "date": "2019-06-14",
-          "city": "佛山",
-          "country": "中國",
-          "venue": "佛山國際體育文化演藝中心"
-        },
-        {
-          "session_id": "C005-8",
-          "date": "2019-06-15",
-          "city": "佛山",
-          "country": "中國",
-          "venue": "佛山國際體育文化演藝中心"
-        },
-        {
-          "session_id": "C005-9",
-          "date": "2019-06-22",
-          "city": "澳門",
-          "country": "澳門",
-          "venue": "威尼斯人金光綜藝館"
-        },
-        {
-          "session_id": "C005-10",
-          "date": "2019-06-23",
-          "city": "澳門",
-          "country": "澳門",
-          "venue": "威尼斯人金光綜藝館"
-        },
-        {
-          "session_id": "C005-11",
-          "date": "2019-06-29",
-          "city": "北京",
-          "country": "中國",
-          "venue": "凱迪拉克中心"
-        },
-        {
-          "session_id": "C005-12",
-          "date": "2019-08-10",
-          "city": "杭州",
-          "country": "中國",
-          "venue": "黃龍體育中心體育館"
-        },
-        {
-          "session_id": "C005-13",
-          "date": "2019-08-17",
-          "city": "南京",
-          "country": "中國",
-          "venue": "南京青奧體育公園體育館"
-        },
-        {
-          "session_id": "C005-14",
-          "date": "2019-08-24",
-          "city": "惠州",
-          "country": "中國",
-          "venue": "惠州奧林匹克體育場"
-        },
-        {
-          "session_id": "C005-15",
-          "date": "2019-08-31",
-          "city": "大連",
-          "country": "中國",
-          "venue": "大連體育中心體育館"
-        },
-        {
-          "session_id": "C005-16",
-          "date": "2019-09-07",
-          "city": "上海",
-          "country": "中國",
-          "venue": "虹口足球場"
-        },
-        {
-          "session_id": "C005-17",
-          "date": "2019-09-14",
-          "city": "汕頭",
-          "country": "中國",
-          "venue": "汕頭方特歡樂世界·藍水星·室外停車場"
-        },
-        {
-          "session_id": "C005-18",
-          "date": "2019-11-02",
-          "city": "南寧",
-          "country": "中國",
-          "venue": "廣西體育中心體育場"
-        },
-        {
-          "session_id": "C005-19",
-          "date": "2019-11-09",
-          "city": "武漢",
-          "country": "中國",
-          "venue": "武漢光谷國際網球中心"
-        },
-        {
-          "session_id": "C005-20",
-          "date": "2019-11-16",
-          "city": "成都",
-          "country": "中國",
-          "venue": "五糧液成都金融城演藝中心"
-        },
-        {
-          "session_id": "C005-21",
-          "date": "2019-12-21",
-          "city": "蘇州",
-          "country": "中國",
-          "venue": "蘇州奧林匹克體育中心體育館"
-        },
-        {
-          "session_id": "C005-22",
-          "date": "2019-12-29",
-          "city": "天津",
-          "country": "中國",
-          "venue": "天津奧林匹克中心體育館"
-        },
-        {
-          "session_id": "C005-23",
-          "date": "2020-01-04",
-          "city": "佛山",
-          "country": "中國",
-          "venue": "佛山高明體育中心體育場"
-        },
-        {
-          "session_id": "C005-24",
-          "date": "2020-01-11",
-          "city": "海口",
-          "country": "中國",
-          "venue": "海口市五源河體育場"
-        },
-        {
-          "session_id": "C005-25",
-          "date": "2020-01-18",
-          "city": "茂名",
-          "country": "中國",
-          "venue": "茂名體育中心體育場"
-        }
-      ]
-    },
-    {
-      "concert_id": "C033",
-      "concert_name": "My Beautiful Live 楊千嬅世界巡迴演唱會（海外）",
-      "concert_name_english": "My Beautiful Live World Tour (Overseas)",
-      "notes": "2019-2020年大型世界巡迴演唱會，主題曲《穿越》，最終合共32場。此工作表僅收錄已核實日期／城市的場次，部分場地名稱未能核實故留空；完整巡演尚包括香港、無錫、馬來西亞雲頂、美加等站，惟資料不足未能收錄。",
-      "sessions": [
-        {
-          "session_id": "C033-1",
-          "date": "2019-10-03",
-          "city": "墨爾本",
-          "country": "澳洲",
-          "venue": "Melbourne Convention Centre"
-        },
-        {
-          "session_id": "C033-2",
-          "date": "2019-10-06",
-          "city": "悉尼",
-          "country": "澳洲",
-          "venue": "The Star Event Centre"
-        },
-        {
-          "session_id": "C033-3",
-          "date": "2019-10-09",
-          "city": "奧克蘭",
-          "country": "紐西蘭",
-          "venue": "The Trusts Arena"
-        },
-        {
-          "session_id": "C033-4",
-          "date": "2019-11-22",
-          "city": "多倫多",
-          "country": "加拿大",
-          "venue": "Coca-Cola Coliseum"
-        },
-        {
-          "session_id": "C033-5",
-          "date": "2019-11-28",
-          "city": "大西洋城",
-          "country": "美國",
-          "venue": "Hard Rock Live"
-        },
-        {
-          "session_id": "C033-6",
-          "date": "2019-11-30",
-          "city": "拉斯維加斯",
-          "country": "美國",
-          "venue": "MGM Grand Garden Arena"
-        },
-        {
-          "session_id": "C033-7",
-          "date": "2019-12-02",
-          "city": "溫哥華",
-          "country": "加拿大",
-          "venue": "The Orpheum"
-        }
-      ]
-    },
-    {
       "concert_id": "C030",
       "concert_name": "MOOV Live：楊千嬅 x Supper Moment",
       "concert_name_english": "",
@@ -5685,144 +6279,80 @@
       ]
     },
     {
-      "concert_id": "C006",
-      "concert_name": "楊千嬅 B minor 音樂會",
-      "concert_name_english": "B minor Music Live 2022",
-      "notes": "第二次Side Track主題演唱會，全新歌曲《還有事情可慶祝》及《無去無來》首次曝光。維基百科僅列出第一場開場三首歌曲，完整歌單未能核實，故從略。",
+      "concert_id": "C031",
+      "concert_name": "楊千嬅 MY TREE OF LIVE 世界巡迴演唱會 1.0（海外）",
+      "concert_name_english": "",
+      "notes": "來源：my-live-chart T23 · 海外巡迴",
       "sessions": [
         {
-          "session_id": "C006-1",
-          "date": "2022-12-17",
-          "city": "香港",
-          "country": "香港",
-          "venue": "亞洲國際博覽館 Arena"
-        },
-        {
-          "session_id": "C006-2",
-          "date": "2022-12-18",
-          "city": "香港",
-          "country": "香港",
-          "venue": "亞洲國際博覽館 Arena"
-        }
-      ]
-    },
-    {
-      "concert_id": "C007",
-      "concert_name": "楊千嬅 MY TREE OF LIVE 世界巡迴演唱會 1.0（中國）",
-      "concert_name_english": "MY TREE OF LIVE World Tour 1.0 (China)",
-      "notes": "楊千嬅第二次大型世界巡迴演唱會，2023年5月27日於廣州開始，歷時21個月，合共於逾50個城市演出53場，2025年1月以廣州返場作結。此工作表僅收錄已核實日期的少數場次；完整53場行程請自行從官方公告補充。",
-      "sessions": [
-        {
-          "session_id": "C007-1",
-          "date": "2023-05-27",
-          "city": "廣州",
+          "session_id": "C031-1",
+          "date": "2023-10-07",
+          "city": "雲頂",
           "country": "中國",
-          "venue": "海心沙亞運公園"
+          "venue": "雲星劇場"
         },
         {
-          "session_id": "C007-2",
-          "date": "2023-05-28",
-          "city": "廣州",
+          "session_id": "C031-2",
+          "date": "2023-11-20",
+          "city": "多倫多",
+          "country": "加拿大",
+          "venue": "Meridian Hall"
+        },
+        {
+          "session_id": "C031-3",
+          "date": "2023-11-23",
+          "city": "康州",
           "country": "中國",
-          "venue": "海心沙亞運公園"
+          "venue": "Mohegan Sun Arena"
         },
         {
-          "session_id": "C007-3",
-          "date": "2023-06-17",
-          "city": "廈門",
+          "session_id": "C031-4",
+          "date": "2023-11-25",
+          "city": "拉斯維加斯",
           "country": "中國",
-          "venue": "廈門體育中心體育場"
+          "venue": "The Chelsea at The Cosmopolitan"
         },
         {
-          "session_id": "C007-4",
-          "date": "2023-07-22",
-          "city": "深圳",
+          "session_id": "C031-5",
+          "date": "2023-12-02",
+          "city": "馬里蘭",
           "country": "中國",
-          "venue": "深圳灣體育中心體育場"
+          "venue": "The Hall at Live!"
         },
         {
-          "session_id": "C007-5",
-          "date": "2023-08-05",
-          "city": "肇慶",
+          "session_id": "C031-6",
+          "date": "2023-12-22",
+          "city": "新加坡",
+          "country": "新加坡",
+          "venue": "金沙會議展覽中心大宴會廳"
+        },
+        {
+          "session_id": "C031-7",
+          "date": "2023-12-23",
+          "city": "新加坡",
+          "country": "新加坡",
+          "venue": "金沙會議展覽中心大宴會廳"
+        },
+        {
+          "session_id": "C031-8",
+          "date": "2024-03-30",
+          "city": "奧克蘭",
           "country": "中國",
-          "venue": "肇慶體育中心體育場"
+          "venue": "The Trusts Arena"
         },
         {
-          "session_id": "C007-6",
-          "date": "2023-08-19",
-          "city": "佛山",
-          "country": "中國",
-          "venue": "佛山世紀蓮體育中心體育場"
+          "session_id": "C031-9",
+          "date": "2024-04-01",
+          "city": "墨爾本",
+          "country": "澳洲",
+          "venue": "Palladium at Crown"
         },
         {
-          "session_id": "C007-7",
-          "date": "2023-08-26",
-          "city": "湛江",
-          "country": "中國",
-          "venue": "湛江市體育中心體育場"
-        },
-        {
-          "session_id": "C007-8",
-          "date": "2023-09-09",
-          "city": "上海",
-          "country": "中國",
-          "venue": "虹口足球場"
-        },
-        {
-          "session_id": "C007-9",
-          "date": "2023-10-14",
-          "city": "重慶",
-          "country": "中國",
-          "venue": "重慶市奧林匹克體育中心體育場"
-        },
-        {
-          "session_id": "C007-10",
-          "date": "2023-10-28",
-          "city": "武漢",
-          "country": "中國",
-          "venue": "五環體育中心體育場"
-        },
-        {
-          "session_id": "C007-11",
-          "date": "2023-11-04",
-          "city": "汕頭",
-          "country": "中國",
-          "venue": "汕頭體育中心體育場"
-        },
-        {
-          "session_id": "C007-12",
-          "date": "2023-11-11",
-          "city": "江門",
-          "country": "中國",
-          "venue": "江門體育中心體育場"
-        },
-        {
-          "session_id": "C007-13",
-          "date": "2024-01-06",
-          "city": "南寧",
-          "country": "中國",
-          "venue": "廣西體育中心體育場"
-        },
-        {
-          "session_id": "C007-14",
-          "date": "2024-01-20",
-          "city": "清遠",
-          "country": "中國",
-          "venue": "清遠體育中心體育場"
-        },
-        {
-          "session_id": "C007-15",
-          "date": "2024-02-14",
-          "city": "澳門",
-          "country": "澳門",
-          "venue": "銀河綜藝館"
-        },
-        {
-          "session_id": "C007-16",
-          "date": "2024-02-15",
-          "city": "澳門",
-          "country": "澳門",
-          "venue": "銀河綜藝館"
+          "session_id": "C031-10",
+          "date": "2024-04-03",
+          "city": "悉尼",
+          "country": "澳洲",
+          "venue": "Darling Harbour Theatre"
         }
       ]
     },
@@ -5830,7 +6360,7 @@
       "concert_id": "C034",
       "concert_name": "楊千嬅 MY TREE OF LIVE 世界巡迴演唱會 2.0",
       "concert_name_english": "MY TREE OF LIVE World Tour 2.0",
-      "notes": "",
+      "notes": "MY TREE OF LIVE 世界巡迴演唱會 2.0 階段。",
       "sessions": [
         {
           "session_id": "C034-1",
@@ -6024,186 +6554,6 @@
       ]
     },
     {
-      "concert_id": "C031",
-      "concert_name": "楊千嬅 MY TREE OF LIVE 世界巡迴演唱會 1.0（海外）",
-      "concert_name_english": "",
-      "notes": "來源：my-live-chart T23 · 海外巡迴",
-      "sessions": [
-        {
-          "session_id": "C031-1",
-          "date": "2023-10-07",
-          "city": "雲頂",
-          "country": "中國",
-          "venue": "雲星劇場"
-        },
-        {
-          "session_id": "C031-2",
-          "date": "2023-11-20",
-          "city": "多倫多",
-          "country": "加拿大",
-          "venue": "Meridian Hall"
-        },
-        {
-          "session_id": "C031-3",
-          "date": "2023-11-23",
-          "city": "康州",
-          "country": "中國",
-          "venue": "Mohegan Sun Arena"
-        },
-        {
-          "session_id": "C031-4",
-          "date": "2023-11-25",
-          "city": "拉斯維加斯",
-          "country": "中國",
-          "venue": "The Chelsea at The Cosmopolitan"
-        },
-        {
-          "session_id": "C031-5",
-          "date": "2023-12-02",
-          "city": "馬里蘭",
-          "country": "中國",
-          "venue": "The Hall at Live!"
-        },
-        {
-          "session_id": "C031-6",
-          "date": "2023-12-22",
-          "city": "新加坡",
-          "country": "新加坡",
-          "venue": "金沙會議展覽中心大宴會廳"
-        },
-        {
-          "session_id": "C031-7",
-          "date": "2023-12-23",
-          "city": "新加坡",
-          "country": "新加坡",
-          "venue": "金沙會議展覽中心大宴會廳"
-        },
-        {
-          "session_id": "C031-8",
-          "date": "2024-03-30",
-          "city": "奧克蘭",
-          "country": "紐西蘭",
-          "venue": "The Trusts Arena"
-        },
-        {
-          "session_id": "C031-9",
-          "date": "2024-04-01",
-          "city": "墨爾本",
-          "country": "澳洲",
-          "venue": "Palladium at Crown"
-        },
-        {
-          "session_id": "C031-10",
-          "date": "2024-04-03",
-          "city": "悉尼",
-          "country": "澳洲",
-          "venue": "Darling Harbour Theatre"
-        }
-      ]
-    },
-    {
-      "concert_id": "C010",
-      "concert_name": "楊千嬅 MEET YOU AT THE HALFWAY MINI CONCERT 生日限定音樂會",
-      "concert_name_english": "Meet You at the Halfway Mini Concert",
-      "notes": "楊千嬅50歲生日限定歌迷聚會。歌單未能核實，故從略。",
-      "sessions": [
-        {
-          "session_id": "C010-1",
-          "date": "2024-02-03",
-          "city": "香港",
-          "country": "香港",
-          "venue": "新蒲崗 胡李名靜體育館"
-        }
-      ]
-    },
-    {
-      "concert_id": "C009",
-      "concert_name": "楊千嬅 RECOLLECTION 澳門演唱會",
-      "concert_name_english": "Recollection Macau Concert",
-      "notes": "MY TREE OF LIVE世巡以外的全新rundown，主題為「回憶」。完整歌單未能完全核實，僅收錄報導中明確提及的曲目。",
-      "sessions": [
-        {
-          "session_id": "C009-1",
-          "date": "2024-08-17",
-          "city": "澳門",
-          "country": "澳門",
-          "venue": "澳門倫敦人綜藝館"
-        },
-        {
-          "session_id": "C009-2",
-          "date": "2024-08-18",
-          "city": "澳門",
-          "country": "澳門",
-          "venue": "澳門倫敦人綜藝館"
-        }
-      ]
-    },
-    {
-      "concert_id": "C008",
-      "concert_name": "楊千嬅 Live MY LIVE 2025 演唱會",
-      "concert_name_english": "Live MY LIVE 2025",
-      "notes": "第八次紅館個人售票演唱會，慶祝出道30週年，一連六場三面台演出，主題曲《Live MY Life》。",
-      "sessions": [
-        {
-          "session_id": "C008-1",
-          "date": "2025-11-29",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C008-2",
-          "date": "2025-11-30",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C008-3",
-          "date": "2025-12-01",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C008-4",
-          "date": "2025-12-02",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C008-5",
-          "date": "2025-12-03",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        },
-        {
-          "session_id": "C008-6",
-          "date": "2025-12-04",
-          "city": "香港",
-          "country": "香港",
-          "venue": "紅磡香港體育館"
-        }
-      ]
-    },
-    {
-      "concert_id": "C011",
-      "concert_name": "楊千嬅 52Hz Echoes 生日限定音樂會",
-      "concert_name_english": "52Hz Echoes Birthday Concert",
-      "notes": "楊千嬅52歲生日限定音樂會，首次於內地舉行四面台音樂會；會上官宣2026年《楊千嬅Live MY LIVE 1.0世界巡迴演唱會》。歌單未能核實，故從略。",
-      "sessions": [
-        {
-          "session_id": "C011-1",
-          "date": "2026-01-31",
-          "city": "重慶",
-          "country": "中國",
-          "venue": "重慶國際博覽中心"
-        }
-      ]
-    },
-    {
       "concert_id": "C032",
       "concert_name": "楊千嬅 Live MY LIVE 1.0 世界巡迴演唱會",
       "concert_name_english": "",
@@ -6292,6 +6642,21 @@
           "city": "上海",
           "country": "中國",
           "venue": "虹口足球場"
+        }
+      ]
+    },
+    {
+      "concert_id": "C035",
+      "concert_name": "楊千嬅 x AT17 x 女子十二樂坊903抱抱良音音樂會",
+      "concert_name_english": "903 Baobao Liangyin Concert 2004",
+      "notes": "楊千嬅、AT17、女子十二樂坊聯合音樂會。",
+      "sessions": [
+        {
+          "session_id": "C035-1",
+          "date": "2004-06-17",
+          "city": "香港",
+          "country": "香港",
+          "venue": "九龍灣國際展貿中心 3樓 寰宇廳"
         }
       ]
     }
@@ -6481,7 +6846,7 @@
       "song_id": "S031",
       "session_id": "C001-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S001",
@@ -7393,7 +7758,7 @@
       "song_id": "S056",
       "session_id": "C002-3",
       "is_main_rundown": false,
-      "notes": "ft.側田"
+      "notes": "與側田合唱"
     },
     {
       "song_id": "S057",
@@ -7405,7 +7770,7 @@
       "song_id": "S024",
       "session_id": "C002-4",
       "is_main_rundown": false,
-      "notes": "ft.陳奕迅"
+      "notes": "與陳奕迅合唱"
     },
     {
       "song_id": "S016",
@@ -10225,133 +10590,133 @@
       "song_id": "S023",
       "session_id": "C004-1",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-2",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-3",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-4",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-5",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-6",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-7",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-8",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-9",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-10",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C004-11",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-1",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-2",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-3",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-4",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-5",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-6",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-7",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-8",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-9",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-10",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S091",
       "session_id": "C004-11",
       "is_main_rundown": true,
-      "notes": "多數場次演出，個別場次略有調動"
+      "notes": ""
     },
     {
       "song_id": "S074",
@@ -12181,481 +12546,661 @@
       "song_id": "S097",
       "session_id": "C005-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-2",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-3",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-4",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-5",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-7",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-9",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-11",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-12",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-13",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-14",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-15",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-16",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C005-17",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C033-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C033-3",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-2",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-3",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-4",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-5",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-7",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-9",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-11",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
+    },
+    {
+      "song_id": "S383",
+      "session_id": "C005-11",
+      "is_main_rundown": false,
+      "notes": "原唱:五月天"
+    },
+    {
+      "song_id": "S384",
+      "session_id": "C005-11",
+      "is_main_rundown": false,
+      "notes": "原唱:曲婉婷"
     },
     {
       "song_id": "S075",
       "session_id": "C005-12",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-13",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-14",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-15",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-16",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-17",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C033-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C033-3",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-2",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-3",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-4",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-5",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-7",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-9",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-11",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-12",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-13",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-14",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-15",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-16",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-17",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C033-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C033-3",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-2",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-3",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-4",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-5",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-7",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-9",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-11",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-12",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-13",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-14",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-15",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-16",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-17",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C033-1",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C033-3",
       "is_main_rundown": false,
-      "notes": "Encore"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-1",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-2",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-3",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-4",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-5",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-7",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-9",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-11",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-12",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-13",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-14",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-15",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
+    },
+    {
+      "song_id": "S382",
+      "session_id": "C005-15",
+      "is_main_rundown": false,
+      "notes": "原唱:陳奕迅"
     },
     {
       "song_id": "S083",
       "session_id": "C005-16",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
+    },
+    {
+      "song_id": "S382",
+      "session_id": "C005-16",
+      "is_main_rundown": false,
+      "notes": "原唱:陳奕迅"
     },
     {
       "song_id": "S083",
       "session_id": "C005-17",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C033-1",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C033-3",
       "is_main_rundown": false,
-      "notes": "Encore，個別場次演出"
+      "notes": ""
+    },
+    {
+      "song_id": "S076",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S335",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S017",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S385",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": "原唱:陳奕迅"
+    },
+    {
+      "song_id": "S283",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S051",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S159",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S307",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S355",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S099",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S172",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S008",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S072",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S045",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S001",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S054",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S022",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S104",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S322",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": "原唱:陳百強"
+    },
+    {
+      "song_id": "S048",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S018",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S328",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S005",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S102",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S082",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S024",
+      "session_id": "C006-1",
+      "is_main_rundown": true,
+      "notes": ""
     },
     {
       "song_id": "S097",
@@ -12673,7 +13218,31 @@
       "song_id": "S022",
       "session_id": "C006-1",
       "is_main_rundown": false,
-      "notes": "鋼琴彈奏重來"
+      "notes": ""
+    },
+    {
+      "song_id": "S339",
+      "session_id": "C006-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S101",
+      "session_id": "C006-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S094",
+      "session_id": "C006-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S087",
+      "session_id": "C006-1",
+      "is_main_rundown": false,
+      "notes": ""
     },
     {
       "song_id": "S087",
@@ -13279,6 +13848,1230 @@
       "song_id": "S101",
       "session_id": "C007-5",
       "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S103",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S103",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S103",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S103",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S103",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S103",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S076",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S076",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S076",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S076",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S076",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S076",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S073",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S073",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S073",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S073",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S073",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S073",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S062",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S062",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S062",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S062",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S062",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S062",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S104",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S104",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S104",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S104",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S104",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S104",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S105",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S105",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S105",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S105",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S105",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S105",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S106",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S106",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S106",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S106",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S106",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S106",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S041",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S041",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S041",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S041",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S041",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S041",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S107",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S107",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S107",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S107",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S107",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S107",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S072",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S072",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S072",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S072",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S072",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S072",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S079",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S079",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S079",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S079",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S079",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S079",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S067",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S067",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S067",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S067",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S067",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S067",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S081",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S081",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S081",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S081",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S081",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S081",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S031",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S031",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S031",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S031",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S031",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S031",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S036",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S036",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S036",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S036",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S036",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S036",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S108",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S108",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S108",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S108",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S108",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S108",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S053",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S053",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S053",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S053",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S053",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S053",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S083",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S083",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S083",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S083",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S083",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S083",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S075",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S075",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S075",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S075",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S075",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S075",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S089",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S089",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S089",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S089",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S089",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S089",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S060",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S060",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S060",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S060",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S060",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S060",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S022",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S022",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S022",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S022",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S022",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S022",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S098",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S098",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S098",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S098",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S098",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S098",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S086",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S086",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S086",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S086",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S086",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S086",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S102",
+      "session_id": "C008-1",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S102",
+      "session_id": "C008-2",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S102",
+      "session_id": "C008-3",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S102",
+      "session_id": "C008-4",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S102",
+      "session_id": "C008-5",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S102",
+      "session_id": "C008-6",
+      "is_main_rundown": true,
+      "notes": ""
+    },
+    {
+      "song_id": "S109",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S109",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S109",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S109",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S109",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S109",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S024",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S024",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S024",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S024",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S024",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S024",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S023",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S023",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S023",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S023",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S023",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S023",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S049",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S049",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S049",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S049",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S049",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S049",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S048",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S048",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S048",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S048",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S048",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S048",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S018",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S018",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S018",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S018",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S018",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S018",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S074",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S074",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S074",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S074",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S074",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S074",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S082",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S082",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S082",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S082",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S082",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S082",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S101",
+      "session_id": "C008-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S101",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S101",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S101",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S101",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S101",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -13560,7 +15353,7 @@
     {
       "song_id": "S031",
       "session_id": "C001-2",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -14521,7 +16314,7 @@
       "song_id": "S192",
       "session_id": "C015-5",
       "is_main_rundown": true,
-      "notes": "其他歌手/非原唱"
+      "notes": ""
     },
     {
       "song_id": "S028",
@@ -14581,7 +16374,7 @@
       "song_id": "S032",
       "session_id": "C016-1",
       "is_main_rundown": true,
-      "notes": "演唱人:明哥；其他歌手/非原唱"
+      "notes": "演唱人:黃耀明；其他歌手/非原唱"
     },
     {
       "song_id": "S058",
@@ -14668,10 +16461,10 @@
       "notes": ""
     },
     {
-      "song_id": "S219",
+      "song_id": "S221",
       "session_id": "C017-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、任賢齊"
+      "notes": "與任賢齊合唱"
     },
     {
       "song_id": "S175",
@@ -14749,7 +16542,7 @@
       "song_id": "S194",
       "session_id": "C017-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、Jason"
+      "notes": "與蔡德才合唱"
     },
     {
       "song_id": "S074",
@@ -14905,7 +16698,7 @@
       "song_id": "S194",
       "session_id": "C017-2",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、Jason"
+      "notes": "與蔡德才合唱"
     },
     {
       "song_id": "S074",
@@ -15055,7 +16848,7 @@
       "song_id": "S194",
       "session_id": "C017-3",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、Jason"
+      "notes": "與蔡德才合唱"
     },
     {
       "song_id": "S058",
@@ -15373,7 +17166,7 @@
       "song_id": "S194",
       "session_id": "C017-5",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、Jason"
+      "notes": "與蔡德才合唱"
     },
     {
       "song_id": "S073",
@@ -15421,7 +17214,7 @@
       "song_id": "S065",
       "session_id": "C018-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、林一峰"
+      "notes": "與林一峰合唱"
     },
     {
       "song_id": "S198",
@@ -15481,7 +17274,7 @@
       "song_id": "S080",
       "session_id": "C019-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、陳奕迅、梁漢文"
+      "notes": "與陳奕迅、梁漢文合唱"
     },
     {
       "song_id": "S062",
@@ -15499,7 +17292,7 @@
       "song_id": "S078",
       "session_id": "C020-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、古巨基"
+      "notes": "與古巨基合唱"
     },
     {
       "song_id": "S049",
@@ -15607,7 +17400,7 @@
       "song_id": "S344",
       "session_id": "C021-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、陳奕迅"
+      "notes": "與陳奕迅合唱"
     },
     {
       "song_id": "S024",
@@ -15739,7 +17532,7 @@
       "song_id": "S237",
       "session_id": "C022-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、梁漢文"
+      "notes": "與梁漢文合唱"
     },
     {
       "song_id": "S009",
@@ -15931,7 +17724,7 @@
       "song_id": "S237",
       "session_id": "C022-2",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、梁漢文"
+      "notes": "與梁漢文合唱"
     },
     {
       "song_id": "S009",
@@ -16117,7 +17910,7 @@
       "song_id": "S237",
       "session_id": "C022-3",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、梁漢文"
+      "notes": "與梁漢文合唱"
     },
     {
       "song_id": "S009",
@@ -16309,7 +18102,7 @@
       "song_id": "S237",
       "session_id": "C022-4",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、梁漢文"
+      "notes": "與梁漢文合唱"
     },
     {
       "song_id": "S009",
@@ -16501,7 +18294,7 @@
       "song_id": "S237",
       "session_id": "C022-5",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、梁漢文"
+      "notes": "與梁漢文合唱"
     },
     {
       "song_id": "S009",
@@ -16639,7 +18432,7 @@
       "song_id": "S079",
       "session_id": "C023-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、陳奕迅"
+      "notes": "與陳奕迅合唱"
     },
     {
       "song_id": "S062",
@@ -16675,7 +18468,7 @@
       "song_id": "S237",
       "session_id": "C024-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、林海峰"
+      "notes": "與林海峰合唱"
     },
     {
       "song_id": "S079",
@@ -17323,7 +19116,7 @@
       "song_id": "S194",
       "session_id": "C025-4",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、蔡德才"
+      "notes": "與蔡德才合唱"
     },
     {
       "song_id": "S005",
@@ -17479,7 +19272,7 @@
       "song_id": "S087",
       "session_id": "C025-5",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、丁子高"
+      "notes": "與丁子高合唱"
     },
     {
       "song_id": "S074",
@@ -17557,30 +19350,30 @@
       "song_id": "S344",
       "session_id": "C026-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、陳奕迅"
+      "notes": "與陳奕迅合唱"
     },
     {
       "song_id": "S237",
       "session_id": "C026-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、梁漢文"
+      "notes": "與梁漢文合唱"
     },
     {
       "song_id": "S080",
       "session_id": "C026-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、陳奕迅、梁漢文"
+      "notes": "與陳奕迅、梁漢文合唱"
     },
     {
       "song_id": "S195",
       "session_id": "C002-3",
-      "is_main_rundown": false,
+      "is_main_rundown": true,
       "notes": ""
     },
     {
       "song_id": "S130",
       "session_id": "C002-5",
-      "is_main_rundown": false,
+      "is_main_rundown": true,
       "notes": ""
     },
     {
@@ -17629,13 +19422,13 @@
       "song_id": "S030",
       "session_id": "C027-1",
       "is_main_rundown": true,
-      "notes": "合唱:許廷鏗"
+      "notes": "與許廷鏗合唱"
     },
     {
       "song_id": "S069",
       "session_id": "C027-1",
       "is_main_rundown": true,
-      "notes": "合唱:藍奕邦"
+      "notes": "與藍奕邦合唱"
     },
     {
       "song_id": "S009",
@@ -17653,7 +19446,7 @@
       "song_id": "S237",
       "session_id": "C027-1",
       "is_main_rundown": true,
-      "notes": "合唱:許廷鏗"
+      "notes": "與許廷鏗合唱"
     },
     {
       "song_id": "S319",
@@ -17683,7 +19476,7 @@
       "song_id": "S101",
       "session_id": "C027-1",
       "is_main_rundown": true,
-      "notes": "合唱:大合唱"
+      "notes": "大合唱"
     },
     {
       "song_id": "S092",
@@ -17791,7 +19584,7 @@
       "song_id": "S194",
       "session_id": "C003-6",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、周柏豪"
+      "notes": "與周柏豪合唱"
     },
     {
       "song_id": "S061",
@@ -17821,7 +19614,7 @@
       "song_id": "S101",
       "session_id": "C003-7",
       "is_main_rundown": true,
-      "notes": "嘉賓:梁漢文、陳奕迅"
+      "notes": "與陳奕迅、梁漢文合唱"
     },
     {
       "song_id": "S091",
@@ -17845,7 +19638,7 @@
       "song_id": "S325",
       "session_id": "C028-1",
       "is_main_rundown": true,
-      "notes": "合唱:MKB48；原唱:Raidas；其他歌手/非原唱"
+      "notes": "與MKB48合唱；原唱:Raidas；其他歌手/非原唱"
     },
     {
       "song_id": "S052",
@@ -17875,7 +19668,7 @@
       "song_id": "S237",
       "session_id": "C028-1",
       "is_main_rundown": true,
-      "notes": "合唱:楊千嬅、梁漢文"
+      "notes": "與梁漢文合唱"
     },
     {
       "song_id": "S076",
@@ -18678,31 +20471,31 @@
     {
       "song_id": "S097",
       "session_id": "C005-6",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-6",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S083",
       "session_id": "C005-6",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-6",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-6",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -18840,25 +20633,25 @@
     {
       "song_id": "S097",
       "session_id": "C005-8",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-8",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-8",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-8",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -18876,7 +20669,7 @@
     {
       "song_id": "S195",
       "session_id": "C005-9",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -19008,31 +20801,31 @@
     {
       "song_id": "S097",
       "session_id": "C005-10",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S075",
       "session_id": "C005-10",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S195",
       "session_id": "C005-10",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C005-10",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C005-10",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -19144,9 +20937,9 @@
       "notes": ""
     },
     {
-      "song_id": "S219",
+      "song_id": "S221",
       "session_id": "C005-17",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -20448,7 +22241,7 @@
     {
       "song_id": "S195",
       "session_id": "C033-1",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -20562,31 +22355,31 @@
     {
       "song_id": "S075",
       "session_id": "C033-2",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S097",
       "session_id": "C033-2",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S023",
       "session_id": "C033-2",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S195",
       "session_id": "C033-2",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
       "song_id": "S087",
       "session_id": "C033-2",
-      "is_main_rundown": true,
+      "is_main_rundown": false,
       "notes": ""
     },
     {
@@ -21227,174 +23020,6 @@
     },
     {
       "song_id": "S076",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S335",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S017",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S283",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S051",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S159",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S307",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S355",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S099",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S172",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S008",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S072",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S045",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S001",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S054",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S104",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S322",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": "原唱:陳百強；其他歌手/非原唱"
-    },
-    {
-      "song_id": "S048",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S018",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S328",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S005",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S102",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S082",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S024",
-      "session_id": "C006-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S339",
-      "session_id": "C006-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S101",
-      "session_id": "C006-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S094",
-      "session_id": "C006-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S087",
-      "session_id": "C006-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S076",
       "session_id": "C006-2",
       "is_main_rundown": true,
       "notes": ""
@@ -21410,6 +23035,12 @@
       "session_id": "C006-2",
       "is_main_rundown": true,
       "notes": ""
+    },
+    {
+      "song_id": "S385",
+      "session_id": "C006-2",
+      "is_main_rundown": true,
+      "notes": "原唱:陳奕迅"
     },
     {
       "song_id": "S283",
@@ -22948,10 +24579,10 @@
       "notes": ""
     },
     {
-      "song_id": "S219",
+      "song_id": "S221",
       "session_id": "C007-10",
       "is_main_rundown": false,
-      "notes": "合唱:楊千嬅、任賢齊"
+      "notes": "與任賢齊合唱"
     },
     {
       "song_id": "S195",
@@ -26659,7 +28290,7 @@
       "song_id": "S075",
       "session_id": "C034-4",
       "is_main_rundown": false,
-      "notes": "合唱:楊千嬅、陳小春"
+      "notes": "與陳小春合唱"
     },
     {
       "song_id": "S273",
@@ -29245,7 +30876,7 @@
       "song_id": "S094",
       "session_id": "C034-16",
       "is_main_rundown": false,
-      "notes": "合唱:楊千嬅、劉惜君"
+      "notes": "與劉惜君合唱"
     },
     {
       "song_id": "S272",
@@ -29473,7 +31104,7 @@
       "song_id": "S332",
       "session_id": "C034-17",
       "is_main_rundown": false,
-      "notes": "合唱:楊千嬅、Supper Moment"
+      "notes": "與Supper Moment合唱"
     },
     {
       "song_id": "S022",
@@ -30559,7 +32190,7 @@
       "song_id": "S337",
       "session_id": "C034-22",
       "is_main_rundown": false,
-      "notes": "合唱:楊千嬅、AGA江海迦"
+      "notes": "與AGA江海迦合唱"
     },
     {
       "song_id": "S231",
@@ -31399,13 +33030,13 @@
       "song_id": "S194",
       "session_id": "C034-26",
       "is_main_rundown": false,
-      "notes": "合唱:楊千嬅、周柏豪"
+      "notes": "與周柏豪合唱"
     },
     {
       "song_id": "S092",
       "session_id": "C034-26",
       "is_main_rundown": false,
-      "notes": "合唱:楊千嬅、周柏豪"
+      "notes": "與周柏豪合唱"
     },
     {
       "song_id": "S289",
@@ -31890,6 +33521,150 @@
     {
       "song_id": "S094",
       "session_id": "C009-1",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S289",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S047",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S339",
+      "session_id": "C008-2",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S016",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S003",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S070",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S097",
+      "session_id": "C008-3",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S087",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S308",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S046",
+      "session_id": "C008-4",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S094",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S289",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S328",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S014",
+      "session_id": "C008-5",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S087",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S094",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S279",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S097",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S051",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S177",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S178",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S047",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S016",
+      "session_id": "C008-6",
+      "is_main_rundown": false,
+      "notes": ""
+    },
+    {
+      "song_id": "S014",
+      "session_id": "C008-6",
       "is_main_rundown": false,
       "notes": ""
     },
@@ -34582,1282 +36357,190 @@
       "notes": ""
     },
     {
-      "song_id": "S103",
-      "session_id": "C008-1",
+      "song_id": "S361",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "與AT17合唱"
     },
     {
-      "song_id": "S076",
-      "session_id": "C008-1",
+      "song_id": "S362",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "與AT17合唱；Medley"
     },
     {
-      "song_id": "S073",
-      "session_id": "C008-1",
+      "song_id": "S363",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "與AT17合唱；Medley"
     },
     {
-      "song_id": "S062",
-      "session_id": "C008-1",
+      "song_id": "S364",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "與AT17合唱；Medley"
     },
     {
-      "song_id": "S104",
-      "session_id": "C008-1",
+      "song_id": "S365",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "與AT17合唱；Medley"
     },
     {
-      "song_id": "S105",
-      "session_id": "C008-1",
+      "song_id": "S366",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "與AT17合唱；Medley"
     },
     {
-      "song_id": "S106",
-      "session_id": "C008-1",
+      "song_id": "S367",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "與AT17合唱；Medley"
     },
     {
-      "song_id": "S041",
-      "session_id": "C008-1",
+      "song_id": "S030",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "與AT17合唱"
     },
     {
-      "song_id": "S107",
-      "session_id": "C008-1",
+      "song_id": "S373",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "演奏:女子十二樂坊"
     },
     {
-      "song_id": "S072",
-      "session_id": "C008-1",
+      "song_id": "S374",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "演唱人:AT17；Medley"
     },
     {
-      "song_id": "S079",
-      "session_id": "C008-1",
+      "song_id": "S375",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "演唱人:AT17；Medley"
     },
     {
-      "song_id": "S067",
-      "session_id": "C008-1",
+      "song_id": "S376",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "演唱人:AT17"
     },
     {
-      "song_id": "S081",
-      "session_id": "C008-1",
+      "song_id": "S377",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "演唱人:AT17"
     },
     {
-      "song_id": "S031",
-      "session_id": "C008-1",
+      "song_id": "S378",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "演唱人:AT17"
     },
     {
-      "song_id": "S036",
-      "session_id": "C008-1",
+      "song_id": "S379",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
+      "notes": "演唱人:AT17"
     },
     {
-      "song_id": "S108",
-      "session_id": "C008-1",
+      "song_id": "S372",
+      "session_id": "C035-1",
       "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S053",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S083",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S075",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S089",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S060",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S022",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S098",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S086",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S102",
-      "session_id": "C008-1",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S109",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": "演唱會主題曲"
-    },
-    {
-      "song_id": "S049",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S024",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S023",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S048",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S018",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S074",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S082",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S101",
-      "session_id": "C008-1",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S103",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S076",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S073",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S062",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S104",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S105",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S106",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S041",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S107",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S072",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S079",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S067",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S081",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S031",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S036",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S108",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S053",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S083",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S075",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S089",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S060",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S022",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S098",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S086",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S102",
-      "session_id": "C008-2",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S109",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": "演唱會主題曲"
-    },
-    {
-      "song_id": "S049",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S289",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S048",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S023",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S074",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S047",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S339",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S082",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S101",
-      "session_id": "C008-2",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S103",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S076",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S073",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S062",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S104",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S105",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S106",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S041",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S107",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S072",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S079",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S067",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S081",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S031",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S036",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S108",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S053",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S083",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S075",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S089",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S060",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S022",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S098",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S086",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S102",
-      "session_id": "C008-3",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S109",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": "演唱會主題曲"
-    },
-    {
-      "song_id": "S016",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S023",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S049",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S003",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S070",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S097",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S082",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S101",
-      "session_id": "C008-3",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S103",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S076",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S073",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S062",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S104",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S105",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S106",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S041",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S107",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S072",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S079",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S067",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S081",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S031",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S036",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S108",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S053",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S083",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S075",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S089",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S060",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S022",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S098",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S086",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S102",
-      "session_id": "C008-4",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S109",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": "演唱會主題曲"
-    },
-    {
-      "song_id": "S087",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S049",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S023",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S308",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S018",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S046",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S082",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S101",
-      "session_id": "C008-4",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S103",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S076",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S073",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S062",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S104",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S105",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S106",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S041",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S107",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S072",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S079",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S067",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S081",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S031",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S036",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S108",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S053",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S083",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S075",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S089",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S060",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S022",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S098",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S086",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S102",
-      "session_id": "C008-5",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S109",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": "演唱會主題曲"
+      "notes": "演唱人:AT17；Medley"
     },
     {
       "song_id": "S094",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": ""
+      "session_id": "C035-1",
+      "is_main_rundown": true,
+      "notes": "演唱人:AT17；Medley"
     },
     {
-      "song_id": "S049",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": ""
+      "song_id": "S381",
+      "session_id": "C035-1",
+      "is_main_rundown": true,
+      "notes": "與AT17合唱"
     },
     {
-      "song_id": "S074",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S289",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S328",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S014",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S082",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S101",
-      "session_id": "C008-5",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S103",
-      "session_id": "C008-6",
+      "song_id": "S053",
+      "session_id": "C035-1",
       "is_main_rundown": true,
       "notes": ""
     },
     {
-      "song_id": "S076",
-      "session_id": "C008-6",
+      "song_id": "S224",
+      "session_id": "C035-1",
       "is_main_rundown": true,
       "notes": ""
     },
     {
-      "song_id": "S073",
-      "session_id": "C008-6",
+      "song_id": "S368",
+      "session_id": "C035-1",
+      "is_main_rundown": true,
+      "notes": "與AT17合唱"
+    },
+    {
+      "song_id": "S369",
+      "session_id": "C035-1",
+      "is_main_rundown": true,
+      "notes": "與AT17合唱"
+    },
+    {
+      "song_id": "S225",
+      "session_id": "C035-1",
       "is_main_rundown": true,
       "notes": ""
     },
     {
-      "song_id": "S062",
-      "session_id": "C008-6",
+      "song_id": "S370",
+      "session_id": "C035-1",
       "is_main_rundown": true,
       "notes": ""
     },
     {
-      "song_id": "S104",
-      "session_id": "C008-6",
+      "song_id": "S027",
+      "session_id": "C035-1",
       "is_main_rundown": true,
       "notes": ""
     },
     {
-      "song_id": "S105",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S106",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S041",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S107",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S072",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S079",
-      "session_id": "C008-6",
+      "song_id": "S038",
+      "session_id": "C035-1",
       "is_main_rundown": true,
       "notes": ""
     },
     {
       "song_id": "S067",
-      "session_id": "C008-6",
+      "session_id": "C035-1",
       "is_main_rundown": true,
       "notes": ""
-    },
-    {
-      "song_id": "S081",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S031",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S036",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S108",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S053",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S083",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S075",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S089",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S060",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S022",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S098",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S086",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S102",
-      "session_id": "C008-6",
-      "is_main_rundown": true,
-      "notes": ""
-    },
-    {
-      "song_id": "S109",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": "演唱會主題曲"
     },
     {
       "song_id": "S087",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
+      "session_id": "C035-1",
+      "is_main_rundown": true,
       "notes": ""
     },
     {
-      "song_id": "S049",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
+      "song_id": "S380",
+      "session_id": "C035-1",
+      "is_main_rundown": true,
+      "notes": "演唱人:AT17（旁白：楊千嬅）"
     },
     {
-      "song_id": "S048",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
+      "song_id": "S371",
+      "session_id": "C035-1",
+      "is_main_rundown": true,
+      "notes": "與AT17、女子十二樂坊合唱"
     },
     {
-      "song_id": "S023",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S074",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S094",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S279",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S097",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S051",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S177",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S178",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S047",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S082",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S101",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S016",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
-    },
-    {
-      "song_id": "S014",
-      "session_id": "C008-6",
-      "is_main_rundown": false,
-      "notes": ""
+      "song_id": "S211",
+      "session_id": "C035-1",
+      "is_main_rundown": true,
+      "notes": "與AT17、女子十二樂坊合唱"
     }
   ]
 }
