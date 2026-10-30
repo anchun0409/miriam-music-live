@@ -58,7 +58,7 @@
         const c = row.concert;
         const s = row.session;
         return `<li>
-          <span class="ff-rank">Top ${i + 1}</span>
+          <span class="ff-rank">${i + 1}.</span>
           <div class="ff-item-body">
             <button type="button" class="ff-link ff-main" data-open-concert="${c.concert_id}" data-open-session="${s.session_id}">${DL.concertNameHTML(c)}</button>
             <div class="ff-sub">（${escapeHtml(s.city)} ${escapeHtml(s.date)}）· ${row.count} 首</div>
@@ -78,13 +78,16 @@
       .join("");
 
     const topCities = (f.topCities || [])
-      .map(
-        (row, i) => `<li>
-          <span class="ff-rank">${i + 1}.</span>
-          <span class="ff-main">${escapeHtml(row.city)}</span>
+      .map((row) => {
+        const names = (row.cities || [row.city].filter(Boolean))
+          .map((c) => escapeHtml(c))
+          .join(" / ");
+        return `<li>
+          <span class="ff-rank">${row.rank ?? ""}.</span>
+          <span class="ff-main">${names}</span>
           <span class="ff-sub">${row.times} 場</span>
-        </li>`
-      )
+        </li>`;
+      })
       .join("");
 
     const encoreTop = (f.encoreTop || [])
@@ -156,7 +159,7 @@
 
       <section class="ff-section">
         <h2>演唱會城市 Top 5</h2>
-        <p class="ff-note">哪些城市開的次數最多</p>
+        <p class="ff-note">哪些城市開的次數最多（同場次城市並列）</p>
         <ol class="ff-list">
           ${topCities || `<li class="ff-empty">暫無資料。</li>`}
         </ol>

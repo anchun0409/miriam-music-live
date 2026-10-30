@@ -935,7 +935,7 @@ footer,
   display:flex;
   flex-wrap:wrap;
   align-items:baseline;
-  gap:6px 10px;
+  gap:6px 6px;
   font-size:14px;
   line-height:1.45;
 }
@@ -943,7 +943,8 @@ footer,
 .ff-rank{
   font-weight:700;
   color:var(--purple-500);
-  min-width:3.2em;
+  min-width:1.6em;
+  flex:0 0 auto;
 }
 
 .ff-main{
@@ -999,13 +1000,13 @@ button.ff-link{
   display:flex;
   flex-wrap:nowrap;
   align-items:flex-start;
-  gap:10px;
+  gap:6px;
 }
 
 .concert-coverage-list .ff-rank,
 .ff-list-stacked .ff-rank{
-  flex:0 0 3.2em;
-  min-width:3.2em;
+  flex:0 0 auto;
+  min-width:1.6em;
   padding-top:1px;
 }
 

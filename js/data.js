@@ -492,16 +492,25 @@ window.DataLayer = (() => {
       .sort((a, b) => b.times - a.times || a.song.title.localeCompare(b.song.title, "zh-Hant"))
       .slice(0, 10);
 
-    // top 5 cities
+    // cities by show count; equal 場次 grouped on one line (dense Top 5)
     const cityCounts = {};
     sessions.forEach((s) => {
       const city = s.city || "未知";
       cityCounts[city] = (cityCounts[city] || 0) + 1;
     });
-    const topCities = Object.entries(cityCounts)
-      .map(([city, times]) => ({ city, times }))
-      .sort((a, b) => b.times - a.times || a.city.localeCompare(b.city, "zh-Hant"))
-      .slice(0, 5);
+    const byTimes = new Map();
+    Object.entries(cityCounts).forEach(([city, times]) => {
+      if (!byTimes.has(times)) byTimes.set(times, []);
+      byTimes.get(times).push(city);
+    });
+    const topCities = [...byTimes.entries()]
+      .sort((a, b) => b[0] - a[0])
+      .slice(0, 5)
+      .map(([times, cities], i) => ({
+        rank: i + 1,
+        times,
+        cities: cities.sort((a, b) => a.localeCompare(b, "zh-Hant")),
+      }));
 
     // encore top 5
     const encoreCounts = {};
